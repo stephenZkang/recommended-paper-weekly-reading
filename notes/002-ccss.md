@@ -12,7 +12,7 @@ A[论文核心：CCSS框架优化数值特征推荐] --> B[基础信息]
 
 B --> B1[论文标题：Enhancing Interpretability and Effectiveness in Recommendation with Numerical Features via Learning to Contrast the Counterfactual samples]
 B --> B2[学术认可：Accepted by TheWebConf2024]
-B --> B3[学科分类：Information Retrieval (cs.IR)、Machine Learning]
+B --> B3[学科分类：Information Retrieval （cs.IR）、Machine Learning]
 B --> B4[核心框架：CCSS（Contrastive learning framework with Counterfactual Samples Synthesizing）]
 
 A --> C[研究背景与挑战]
