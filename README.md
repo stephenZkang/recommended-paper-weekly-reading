@@ -27,7 +27,7 @@
 | # | 论文标题 (Title) | 作者 & 年份 |    状态    |                  我的笔记                   |
 |:-:|:---|:---|:--------:|:---------------------------------------:|
 | 1 | [Efficient Item ID Generation for Large-Scale LLM-based Recommendation](https://arxiv.org/abs/2509.03746) | Anushya Subbiah,<br /> 2025 |   ✅ 已读   | [笔记](./notes/001-item-id-generation.md) |
-| 2 | [Enhancing Interpretability and Effectiveness in Recommendation with Numerical Features via Learning to Contrast the Counterfactual samples](https://arxiv.org/abs/2509.03187) | Xiaoxiao Xu,<br /> 2025 |  ✅ 已读    |        [笔记](./notes/002-drqn.md)        |
+| 2 | [Enhancing Interpretability and Effectiveness in Recommendation with Numerical Features via Learning to Contrast the Counterfactual samples](https://arxiv.org/abs/2509.03187) | Xiaoxiao Xu,<br /> 2025 |  ✅ 已读    |        [笔记](./notes/002-ccss.md)        |
 | 3 | [RecBase: Generative Foundation Model Pretraining for Zero-Shot Recommendation](https://arxiv.org/abs/2509.03131) | Sashuai Zhou, <br />2025 |  ✅ 已读  |    [笔记](./notes/003-dueling-dqn.md)     |
 | 4 | [A Plug-and-play Model-agnostic Embedding Enhancement Approach for Explainable Recommendation](https://arxiv.org/abs/2509.03130) | Yunqi Mi,2025 |  ✅ 已读   |     [笔记](./notes/004-double-dqn.md)     |
 | 5 | [ RankGraph: Unified Heterogeneous Graph Learning for Cross-Domain Recommendation](https://arxiv.org/abs/2509.02942) | Renzhi Wu, 2025 |  ✅ 已读   |        [笔记](./notes/005-per.md)         |
