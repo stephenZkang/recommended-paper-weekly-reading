@@ -5,29 +5,39 @@
 ---
 
 
-### 2. 思维导图（mindmap）
-```mindmap
-## 论文核心：Efficient Item ID Generation for Large-Scale LLM-based Recommendation
-- 基础信息
-  - 发表时间：2025-09-03
-  - 学科分类：Information Retrieval (cs.IR)
-  - 代码资源：开源（提供专用URL）
-- 研究背景与挑战
-  - LLM推荐潜力：融合产品目录+用户行为，借LLM世界知识提效
-  - 核心矛盾：数百万Item IDs（真实目录）vs 小文本词汇表（传统LLM）
-  - 传统瓶颈：Item ID多token拆分 → 实时低延迟服务受阻
-- 核心创新方法
-  - 核心思路：Item ID作为LLM“一等公民”
-  - 关键设计：单token表示（Item ID）、单步解码（推理阶段）
-  - 技术支撑：新型训练+推理修改（简单且高效）
-- 实验验证结果
-  - 数据集：亚马逊购物数据集
-  - 推荐质量：Recall、NDCG优于现有技术
-  - 推理效率：较现有技术提升5x-14x
-- 研究价值
-  - 效率视角：区别于主流LLM推荐方法，聚焦推理效率
-  - 方向拓展：开辟“LLM集成ID”新研究方向
-  - 落地价值：适配实时推荐场景，开源降低复用门槛
+### 2. 思维导图
+```mermaid
+graph LR
+A[论文核心：Efficient Item ID Generation for Large-Scale LLM-based Recommendation] --> B[基础信息]
+
+B --> B1[发表时间：2025-09-03]
+B --> B2[学科分类：Information Retrieval ]
+B --> B3[代码资源：开源（提供专用URL）]
+
+A --> C[研究背景与挑战]
+
+C --> C1[LLM推荐潜力：融合产品目录+用户行为，借LLM世界知识提效]
+C --> C2[核心矛盾：数百万Item IDs（真实目录）vs 小文本词汇表（传统LLM）]
+C --> C3[传统瓶颈：Item ID多token拆分 → 实时低延迟服务受阻]
+
+A --> D[核心创新方法]
+
+D --> D1[核心思路：Item ID作为LLM“一等公民”]
+D --> D2[关键设计：单token表示（Item ID）、单步解码（推理阶段）]
+D --> D3[技术支撑：新型训练+推理修改（简单且高效）]
+
+A --> E[实验验证结果]
+
+E --> E1[数据集：亚马逊购物数据集]
+E --> E2[推荐质量：Recall、NDCG优于现有技术]
+E --> E3[推理效率：较现有技术提升5x-14x]
+
+A --> F[研究价值]
+
+F --> F1[效率视角：区别于主流LLM推荐方法，聚焦推理效率]
+F --> F2[方向拓展：开辟“LLM集成ID”新研究方向]
+F --> F3[落地价值：适配实时推荐场景，开源降低复用门槛]
+
 ```
 
 
