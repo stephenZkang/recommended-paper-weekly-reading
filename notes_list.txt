@@ -3,3 +3,4 @@
 003-recbase.md
 004-rvrec.md
 005-rankgraph.md
+006-mme-sid.md
