@@ -29,7 +29,7 @@
 | 1 | [Efficient Item ID Generation for Large-Scale LLM-based Recommendation](https://arxiv.org/abs/2509.03746) | Anushya Subbiah,<br /> 2025 |   ✅ 已读   | [笔记](./notes/001-item-id-generation.md) |
 | 2 | [Enhancing Interpretability and Effectiveness in Recommendation with Numerical Features via Learning to Contrast the Counterfactual samples](https://arxiv.org/abs/2509.03187) | Xiaoxiao Xu,<br /> 2025 |  ✅ 已读    |        [笔记](./notes/002-ccss.md)        |
 | 3 | [RecBase: Generative Foundation Model Pretraining for Zero-Shot Recommendation](https://arxiv.org/abs/2509.03131) | Sashuai Zhou, <br />2025 |  ✅ 已读  |    [笔记](./notes/003-recbase.md)     |
-| 4 | [A Plug-and-play Model-agnostic Embedding Enhancement Approach for Explainable Recommendation](https://arxiv.org/abs/2509.03130) | Yunqi Mi,2025 |  ✅ 已读   |     [笔记](./notes/004-double-dqn.md)     |
+| 4 | [A Plug-and-play Model-agnostic Embedding Enhancement Approach for Explainable Recommendation](https://arxiv.org/abs/2509.03130) | Yunqi Mi,2025 |  ✅ 已读   |     [笔记](./notes/004-rvrec.md)     |
 | 5 | [ RankGraph: Unified Heterogeneous Graph Learning for Cross-Domain Recommendation](https://arxiv.org/abs/2509.02942) | Renzhi Wu, 2025 |  ✅ 已读   |        [笔记](./notes/005-per.md)         |
 | 6 | [Empowering Large Language Model for Sequential Recommendation via Multimodal Embeddings and Semantic IDs](https://arxiv.org/abs/2509.02017) | Yuhao Wang, 2025 |  ✅ 已读  |      [笔记](./notes/006-rainbow.md)       |
 | 7 | [Cloud-Device Collaborative Agents for Sequential Recommendation](https://arxiv.org/abs/2509.01551) | Jing Long, 2025 |  ✅ 已读   |      [笔记](./notes/007-rainbow.md)       |
