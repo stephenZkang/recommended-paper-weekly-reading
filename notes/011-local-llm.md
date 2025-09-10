@@ -15,7 +15,7 @@ B --> B2[作者团队：Amirreza Nayyeri、Abbas Rasoolzadegan]
 B --> B3[发表时间：2025-09-01]
 B --> B4[学科分类：Software Engineering （cs.SE）]
 B --> B5[核心工具：本地LLM驱动的隐私保护推荐器]
-B --> B6[引用格式：arXiv:2509.01527 (cs.SE) / arXiv:2509.01527v2 (cs.SE)]
+B --> B6[引用格式：arXiv:2509.01527 （cs.SE） / arXiv:2509.01527v2 （cs.SE）]
 B --> B7[DOI链接：https://doi.org/10.48550/arXiv.2509.01527]
 
 A --> C[研究背景与挑战]
