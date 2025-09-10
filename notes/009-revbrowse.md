@@ -15,7 +15,7 @@ B --> B2[作者团队：Kaiwen Wei、Jinpeng Gao、Jiang Zhong、Yuming Yang、F
 B --> B3[学科分类：Computation and Language （cs.CL）]
 B --> B4[核心框架：**RevBrowse**]
 B --> B5[核心模块：**PrefRAG（检索增强模块）**]
-B --> B6[引用格式：arXiv:2509.00698 [cs.CL] / https://doi.org/10.48550/arXiv.2509.00698]
+B --> B6[引用格式：arXiv:2509.00698 cs.CL / https://doi.org/10.48550/arXiv.2509.00698]
 
 A --> C[研究背景与挑战]
 
