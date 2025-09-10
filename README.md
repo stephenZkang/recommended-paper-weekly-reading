@@ -36,6 +36,6 @@
 | 8 | [Ultra Fast Warm Start Solution for Graph Recommendations](https://arxiv.org/abs/2509.01549) | Viacheslav Yusupov, <br />2025 |  ✅ 已读  |      [笔记](./notes/008-ultra-gcn.md)       |
 | 9 | [Learning to Shop Like Humans: A Review-driven Retrieval-Augmented Recommendation Framework with LLMs](https://arxiv.org/abs/2509.00698) | Yuhao Wang, 2025 |  ✅ 已读    |      [笔记](./notes/009-revbrowse.md)       |
 | 10 | [Beyond Negative Transfer: Disentangled Preference-Guided Diffusion for Cross-Domain Sequential Recommendation](https://arxiv.org/abs/2509.00389) | Xiaoxin Ye, 2025 | ✅ 已读  |      [笔记](./notes/010-dpg-diff.md)       |
-| 11 | [A Privacy-Preserving Recommender for Filling Web Forms Using a Local Large Language Model](https://arxiv.org/abs/2509.01527) | Amirreza Nayyeri,<br /> Abbas Rasoolzadegan, 2025 |  ⬜️ 未读   |      [笔记](./notes/011-rainbow.md)       |
+| 11 | [A Privacy-Preserving Recommender for Filling Web Forms Using a Local Large Language Model](https://arxiv.org/abs/2509.01527) | Amirreza Nayyeri,<br /> Abbas Rasoolzadegan, 2025 |  ✅ 已读   |      [笔记](./notes/011-local-llm.md)       |
 | 12 | [ MARS: Modality-Aligned Retrieval for Sequence Augmented CTR Prediction](https://arxiv.org/abs/2509.01184) | Yutian Xiao, 2025 |  ⬜️ 未读   |      [笔记](./notes/012-rainbow.md)       |
 
