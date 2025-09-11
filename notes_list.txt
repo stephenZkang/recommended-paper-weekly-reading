@@ -13,4 +13,8 @@
 012-mars.md
 
 awssome-rspagers
+collaborative-filtering
 001-ngcf.md
+
+session-based-rec
+001-sr-gnn.md

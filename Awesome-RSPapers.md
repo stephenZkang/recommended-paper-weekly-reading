@@ -74,7 +74,7 @@ Task
 
 | # | 论文标题 (Title) | 作者 |   状态    |                   我的笔记                   |
 |:-:|:---|:---|:-------:|:----------------------------------------:|
-| 1 | [Neural Graph Collaborative Filtering. SIGIR 2019 【神经图协同过滤】](https://arxiv.org/abs/1905.08108) | Xiang Wang |  ✅ 已读   | [笔记](notes/awssome-rspagers/001-ngcf.md) |
+| 1 | [Neural Graph Collaborative Filtering. SIGIR 2019 【神经图协同过滤】](https://arxiv.org/abs/1905.08108) | Xiang Wang |  ✅ 已读   | [笔记](notes/awssome-rspagers/collaborative-filtering/001-ngcf.md) |
 
 -   Neural Graph Collaborative Filtering. SIGIR 2019 【神经图协同过滤】
 -   LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation. SIGIR 2020 【推荐中的简化图神经网络】
@@ -140,6 +140,10 @@ Task
 -   Trading Hard Negatives and True Negatives: A Debiased Contrastive Collaborative Filtering Approach. IJCAI 2022 【探索正确的负样本】
 
 ### Sequential/Session-based Recommendations
+
+| # | 论文标题 (Title) | 作者 |   状态    |             我的笔记              |
+|:-:|:---|:---|:-------:|:-----------------------------:|
+| 1 | [Session-based recommendation with graph neural networks. AAAI 2019 【基于图神经网络的会话推荐】](https://arxiv.org/abs/1811.00855') | Xiang Wang |  ✅ 已读   | [笔记](notes/awssome-rspagers/session-based-rec/001-sr-gnn.md)) |
 
 -   Session-based recommendation with graph neural networks. AAAI 2019 【基于图神经网络的会话推荐】
 -   Graph contextualized self-attention network for session-based recommendation. IJCAI 2019 【针对会话推荐的图上下文自注意力网络】
