@@ -1,8 +1,8 @@
 Awesome-RSPapers
 ================
 
-本篇整理了推荐领域的论文精读，旨在为自己记录阅读推荐相关论文。
-论文来源:https://github.com/RUCAIBox/Awesome-RSPapers/blob/main/README.md
+- 本篇整理了推荐领域的论文精读，旨在为自己记录阅读推荐相关论文。
+- 论文来源:https://github.com/RUCAIBox/Awesome-RSPapers/blob/main/README.md
 
 
 Included Conferences: SIGIR 2020, SIGKDD 2020, RecSys 2020, CIKM 2020,
