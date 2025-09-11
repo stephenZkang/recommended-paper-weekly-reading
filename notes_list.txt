@@ -1,3 +1,4 @@
+2509
 001-item-id-generation.md
 002-ccss.md
 003-recbase.md
@@ -10,3 +11,6 @@
 010-dpg-diff.md
 011-local-llm.md
 012-mars.md
+
+awssome-rspagers
+001-ngcf.md

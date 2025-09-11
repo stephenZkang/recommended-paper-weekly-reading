@@ -24,6 +24,7 @@
 ## 202509
 
 ### a. 论文周报[0901-0907] (12篇)
+
 | # | 论文标题 (Title) | 作者 & 年份 |   状态    |                  我的笔记                   |
 |:-:|:---|:---|:-------:|:---------------------------------------:|
 | 1 | [Efficient Item ID Generation for Large-Scale LLM-based Recommendation](https://arxiv.org/abs/2509.03746) | Anushya Subbiah,<br /> 2025 |  ✅ 已读   | [笔记](notes/2509/001-item-id-generation.md) |
