@@ -49,9 +49,9 @@ E --> E2[基线模型]
 E2 --> E21[通用模型：BPR、LightGCN]
 E2 --> E22[多模态模型：MMGCN、GRCN、SLMRec、LGMRec]
 E --> E3[核心结果]
-E3 --> E31[Baby数据集：Recall@20达0.1013（超LGMRec 1.1%）]
-E3 --> E32[Sports数据集：NDCG@20达0.0514（超LGMRec 3.4%）]
-E3 --> E33[Clothing数据集：Recall@20达0.0996（超LGMRec 16.8%）]
+E3 --> E31[Baby数据集：Recall 20达0.1013（超LGMRec 1.1%）]
+E3 --> E32[Sports数据集：NDCG 20达0.0514（超LGMRec 3.4%）]
+E3 --> E33[Clothing数据集：Recall 20达0.0996（超LGMRec 16.8%）]
 
 A --> F[研究价值]
 
