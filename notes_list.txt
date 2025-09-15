@@ -1,4 +1,4 @@
-2509
+2509-one-week
 001-item-id-generation.md
 002-ccss.md
 003-recbase.md
@@ -11,6 +11,8 @@
 010-dpg-diff.md
 011-local-llm.md
 012-mars.md
+2509-two-week
+001-ces-rec.md
 
 awssome-rspagers
 collaborative-filtering
