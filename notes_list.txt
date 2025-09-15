@@ -16,6 +16,7 @@
 001-ces-rec.md
 002-mamba-rec.md
 003-perfairx.md
+004-dpg-diff.md
 
 awssome-rspagers
 collaborative-filtering
