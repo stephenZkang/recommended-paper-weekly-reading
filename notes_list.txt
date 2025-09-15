@@ -11,8 +11,10 @@
 010-dpg-diff.md
 011-local-llm.md
 012-mars.md
+
 2509-two-week
 001-ces-rec.md
+002-mamba-rec.md
 
 awssome-rspagers
 collaborative-filtering
