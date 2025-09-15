@@ -114,18 +114,18 @@ F --> F2[局限：仅支持视觉+文本，未适配多模态动态融合]
 
 2. **InfoNCE对比损失**  
    增强匹配对（同一物品的视觉-文本）相似度，抑制非匹配对，公式如下：  
-   $$\mathcal{L}_{InfoNCE} = -\frac{1}{N}\sum_{i=1}^N log\frac{exp(sim(v_i,t_i)/\tau)}{\sum_{j=1}^N exp(sim(v_i,t_j)/\tau)}$$  
+   $`\mathcal{L}_{InfoNCE} = -\frac{1}{N}\sum_{i=1}^N log\frac{exp(sim(v_i,t_i)/\tau)}{\sum_{j=1}^N exp(sim(v_i,t_j)/\tau)}`$  
    其中\(sim(\cdot,\cdot)\)为归一化特征点积，\(\tau=0.01\)为温度系数。
 
 3. **总全局损失**  
-   $$\mathcal{L}_{global} = \lambda_{mmd}\mathcal{L}_{mmd} + \lambda_{cl}\mathcal{L}_{InfoNCE}$$  
-   实验中最优权重：\(\lambda_{mmd}=0.15\)，\(\lambda_{cl}=0.01\)。
+   $`\mathcal{L}_{global} = \lambda_{mmd}\mathcal{L}_{mmd} + \lambda_{cl}\mathcal{L}_{InfoNCE}`$  
+   实验中最优权重：($`\lambda_{mmd}=0.15`$)，($`\lambda_{cl}=0.01`$)。
 
 
 ##### （3）组件3：维度优化策略
 核心目标：降低高维特征的计算与内存开销：
 1. **线性投影降维**  
-   引入线性矩阵\(W_V \in \mathbb{R}^{D_V×d}\)（视觉）与\(W_T \in \mathbb{R}^{D_T×d}\)（文本），将原始特征投影至统一维度\(d\)：
+   引入线性矩阵($`W_V \in \mathbb{R}^{D_V×d}`$)（视觉）与($`W_T \in \mathbb{R}^{D_T×d}`$)（文本），将原始特征投影至统一维度\(d\)：
    - 视觉特征：从4096维降至\(d=512\)（降维系数\(r=8\)）；
    - 文本特征：从384维降至\(d=512\)（补全维度）。
 
