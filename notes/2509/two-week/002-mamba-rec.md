@@ -115,7 +115,7 @@ F --> F2[局限：仅支持视觉+文本，未适配多模态动态融合]
 2. **InfoNCE对比损失**  
    增强匹配对（同一物品的视觉-文本）相似度，抑制非匹配对，公式如下：  
    $`\mathcal{L}_{InfoNCE} = -\frac{1}{N}\sum_{i=1}^N log\frac{exp(sim(v_i,t_i)/\tau)}{\sum_{j=1}^N exp(sim(v_i,t_j)/\tau)}`$  
-   其中\(sim(\cdot,\cdot)\)为归一化特征点积，\(\tau=0.01\)为温度系数。
+   其中($`sim(\cdot,\cdot)`$ )为归一化特征点积，($`\tau=0.01`$ )为温度系数。
 
 3. **总全局损失**  
    $`\mathcal{L}_{global} = \lambda_{mmd}\mathcal{L}_{mmd} + \lambda_{cl}\mathcal{L}_{InfoNCE}`$  
