@@ -34,7 +34,7 @@ D11 --> D111[功能：生成域特定（gₓ/gᵧ）与域不变（g_d）偏好�
 D11 --> D112[实现：Transformer编码器+嵌入层（物品嵌入+位置嵌入）]
 D1 --> D12[2. 偏好引导去噪器（Preference-Guided Denoiser）]
 D12 --> D121[功能：引导反向扩散，重构用户偏好]
-D12 --> D122[实现：Encoder_c编码噪声信号+Decoder融合g_d，公式：$ hat{x}_0= Decoder（Encoder_c（x_t, g_d$]
+D12 --> D122[实现：Encoder_c编码噪声信号+Decoder融合g_d，公式：$hat{x}_0= Decoder（Encoder_c（x_t, g_d）$]
 D1 --> D13[3. 三视角对比学习（Tri-view CL）]
 D13 --> D131[功能：对齐多视图表示（跨域$\hat{x}_0$、融合g_d、增强h_aug）]
 D13 --> D132[正样本：同一用户的多视图对，负样本：不同用户视图]
