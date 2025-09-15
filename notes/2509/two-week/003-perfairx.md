@@ -33,7 +33,7 @@ D --> D3[3. 10个评估指标（分4类）]
 D3 --> D31[人格拟合：PAS（余弦相似度）、GPA（ genre-人格重叠）]
 D3 --> D32[公平性：DP（人口 parity）、EO（机会平等）、ILF（列表内多样性）]
 D3 --> D33[提示敏感性：SNSR K、SNSV K、Jaccard K]
-D3 --> D34[精度指标：Precision`@`15、Recall`@`15]
+D3 --> D34[精度指标：Precision 15、Recall 15]
 D --> D4[4. FPx聚合器：α·PAS+β·GPA+...+μ·Recall K（综合分数）]
 
 A --> E[实验验证]
