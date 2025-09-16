@@ -48,40 +48,6 @@ A --> F[研究价值]
 
 F --> F1[贡献：LLM-as-prior架构、跨视图对齐、轻量融合]
 F --> F2[局限：依赖文本质量、存在领域偏移]
-
-```mindmap
-## 论文核心：RecMind（LLM增强GNN推荐模型）
-- 基础信息
-  - 论文标题：RecMind: LLM-Enhanced Graph Neural Networks for Personalized Consumer Recommendations
-  - 作者团队：Chang Xue（叶史瓦大学）等多校合作
-  - 核心定位：融合LLM语义与GNN协同的推荐框架
-  - 开源：未明确提及
-- 研究背景与问题
-  - 现有局限
-    1. GNN：强于协同结构，弱于文本语义，冷启动差
-    2. LLM：强于语义捕捉，缺协同归纳偏置，单用作排序器成本高
-  - 核心挑战：稀疏交互、内容 churn 快、异构文本信号融合
-- 核心方案：四模块架构
-  - 1. GNN骨干（LightGCN）
-    - 功能：学习协同嵌入$z_v^G$
-    - 公式：$E^{(l+1)}=\hat{A}E^{(l)}$，$z_v^G=\frac{1}{L+1}\sum_{l=0}^L E_v^{(l)}$
-  - 2. LLM偏好模块
-    - 功能：生成语义嵌入$z_v^L$
-    - 设计：冻结LLM+LoRA适配器，$z_v^L=W_{proj}Pool(\mathcal{F}(T_v; adapters))$
-  - 3. 跨模态对齐与融合
-    - 对齐：InfoNCE对比损失$\mathcal{L}_{align}^{U/I}$
-    - 融合：层内节点门控$\hat{E}_v^{(l)}=\gamma_v^{(l)}E_v^{(l)}+(1-\gamma_v^{(l)})z_v^L$
-  - 4. 训练目标
-    - 总损失：$\mathcal{L}=\mathcal{L}_{CF}+\lambda(\mathcal{L}_{align}^U+\mathcal{L}_{align}^I)+\beta\Omega$
-    - 阶段：预热对齐→联合训练
-- 实验验证
-  - 数据集：Yelp、Amazon-Electronics（核心-5过滤）
-  - 基线：BPR-MF、LightGCN、SASRec、LLMRec等6类
-  - 核心结果：8项指标最优，最高提升4.53%
-  - 消融实验：LLM-only降13.5%，无对齐降22.7%
-- 结论与局限
-  - 贡献：LLM-as-prior架构、跨视图对齐、轻量融合
-  - 局限：依赖文本质量、存在领域偏移
 ```
 
 
