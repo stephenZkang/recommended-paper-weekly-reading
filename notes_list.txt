@@ -18,6 +18,7 @@
 003-perfairx.md
 004-dpg-diff.md
 005-ml-ddd.md
+006-recmind.md
 
 awssome-rspagers
 collaborative-filtering
