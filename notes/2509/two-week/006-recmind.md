@@ -26,7 +26,7 @@ A --> D[核心方案：四模块架构]
 
 D --> D1[1. GNN骨干（LightGCN）]
 D1 --> D11[功能：学习协同嵌入$z_v^G$]
-D1 --> D12[公式：<span>$E^{(l+1)}=\hat{A}E^{(l)}$，$z_v^G=\frac{1}{L+1}\sum_{l=0}^L E_v^{(l)}$</span>]
+D1 --> D12[公式：$E^{(l+1)}=\hat{A}E^{(l)}$，$z_v^G=\frac{1}{L+1}\sum_{l=0}^L E_v^{(l)}$]
 D --> D2[2. LLM偏好模块]
 D2 --> D21[功能：生成语义嵌入$z_v^L$]
 D2 --> D22[设计：冻结LLM+LoRA适配器，$z_v^L=W_{proj}Pool(\mathcal{F}(T_v; adapters))$]
