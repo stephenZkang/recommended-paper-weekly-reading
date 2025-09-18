@@ -13,7 +13,7 @@ A[论文核心：ARIES（时间序列预测框架）] --> B[基础信息]
 B --> B1[标题：ARIES: Relation Assessment and Model Recommendation for Deep Time Series Forecasting]
 B --> B2[作者：Fei Wang等（中科院计算技术研究所等）]
 B --> B3[核心定位：属性-策略关联评估 + 可解释模型推荐]
-B --> B4[开源：GitHub（https://github.com/blisky-li/ARIES）
+B --> B4[开源：GitHub（https://github.com/blisky-li/ARIES）]
 
 A --> C[研究背景与挑战]
 C --> C1[现有局限]
