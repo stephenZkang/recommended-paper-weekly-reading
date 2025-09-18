@@ -20,6 +20,7 @@
 005-ml-ddd.md
 006-recmind.md
 007-redrec4cps.md
+008-AREIS.md
 
 awssome-rspagers
 collaborative-filtering
