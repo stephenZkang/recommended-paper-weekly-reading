@@ -19,6 +19,7 @@
 004-dpg-diff.md
 005-ml-ddd.md
 006-recmind.md
+007-redrec4cps.md
 
 awssome-rspagers
 collaborative-filtering
