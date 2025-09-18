@@ -72,7 +72,7 @@ F --> F2[未来：多目标奖励（长期满意度）、UCB探索策略]
 #### 二、内容类型校准（Content Type Calibration）
 ##### 2.1 问题设置
 - **目标**：为用户生成长度为N的内容货架列表，平衡**相关性（s(I)）** 与**校准度（KL散度）**，公式如下：  
-  $$`I^*=\underset{I:|I|=N}{arg max }(1-\lambda) \cdot s(I)-\lambda \cdot C_{KL}(p, I)`$$  
+  $`I^*=\underset{I:|I|=N}{arg max }(1-\lambda) \cdot s(I)-\lambda \cdot C_{KL}(p, I)`$  
   其中，$`\lambda`$控制权衡系数，$`C_{KL}(p,q)`$衡量推荐分布$q$与目标分布$p$的差异。
 - **传统目标分布缺陷**：
    - 基于历史（SC）：$`p(c|u)`$由用户过去7/90天交互计算，忽略动态偏好；
