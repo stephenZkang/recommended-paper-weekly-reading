@@ -24,6 +24,7 @@
 009-KAKL.md
 010-Contextual-Bandits.md
 011-RecSys-Survey.md
+012-ELEC.md
 
 awssome-rspagers
 collaborative-filtering
