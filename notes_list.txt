@@ -28,7 +28,8 @@
 
 2509-3-week
 001-GRUT.md
-002-genPAS.md
+002-MIRA.md
+003-genPAS.md
 
 awssome-rspagers
 collaborative-filtering
