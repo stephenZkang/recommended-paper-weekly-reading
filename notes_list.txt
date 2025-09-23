@@ -37,6 +37,7 @@
 awssome-rspagers
 collaborative-filtering
 001-ngcf.md
+002-LightGCN.md
 
 session-based-rec
 001-sr-gnn.md

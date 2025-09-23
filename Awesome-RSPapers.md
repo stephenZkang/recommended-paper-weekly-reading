@@ -72,9 +72,10 @@ Task
 
 ### Collaborative Filtering(协同过滤)
 
-| # | 论文标题 (Title) | 作者 |   状态    |                   我的笔记                   |
-|:-:|:---|:---|:-------:|:----------------------------------------:|
-| 1 | [Neural Graph Collaborative Filtering. SIGIR 2019 【神经图协同过滤】](https://arxiv.org/abs/1905.08108) | Xiang Wang |  ✅ 已读   | [笔记](notes/awssome-rspagers/collaborative-filtering/001-ngcf.md) |
+| # | 论文标题 (Title)                                                                                                                                   | 作者 |  状态  |                   我的笔记                   |
+|:-:|:-----------------------------------------------------------------------------------------------------------------------------------------------|:---|:----:|:----------------------------------------:|
+| 1 | [Neural Graph Collaborative Filtering. SIGIR 2019 【神经图协同过滤】](https://arxiv.org/abs/1905.08108)                                                 | Xiang Wang | ✅ 已读 | [笔记](notes/awssome-rspagers/collaborative-filtering/001-ngcf.md) |
+| 1 | [LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation. SIGIR 2020 【推荐中的简化图神经网络】](https://arxiv.org/abs/2002.02126)  | Xiang Wang | ✅ 已读 | [笔记](notes/awssome-rspagers/collaborative-filtering/002-LightGCN.md) |
 
 -   Neural Graph Collaborative Filtering. SIGIR 2019 【神经图协同过滤】
 -   LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation. SIGIR 2020 【推荐中的简化图神经网络】
