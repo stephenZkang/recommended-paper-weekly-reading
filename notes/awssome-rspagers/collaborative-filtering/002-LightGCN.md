@@ -10,12 +10,12 @@
 graph LR
 A[论文核心：LightGCN（简化GCN的协同过滤模型）] --> B[基础信息]
 
-B --> B1[论文标题：Neural Graph Collaborative Filtering]
-B --> B2[作者团队：Xiang Wang、Xiangnan He等（中科大、新加坡国立等）]
+B --> B1[论文标题：LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation]
+B --> B2[作者团队：Xiangnan He, Kuan Deng, Xiang Wang, Yan Li, Yongdong Zhang, Meng Wang）]
 B --> B3[发表会议：**SIGIR ’19**（信息检索领域顶会，CCF A类）]
-B --> B4[学科分类：Information Retrieval （cs.IR）]
+B --> B4[学科分类：	Information Retrieval （cs.IR）; Machine Learning （cs.LG）]
 B --> B5[代码开源：https://github.com/xiangwang1223/neural_graph_collaborative_filtering]
-B --> B6[核心定位：GNN-based协同过滤框架]
+B --> B6[核心定位：简化GCN的协同过滤模型]
 
 A --> C[研究背景与挑战]
 
