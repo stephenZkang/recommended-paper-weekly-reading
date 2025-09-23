@@ -10,10 +10,10 @@
 graph LR
 A[论文核心：KGTB生成式POI推荐方法] --> B[基础信息]
 
-B --> B1[论文标题：LLM-as-a-Judge: Rapid Evaluation of Legal Document Recommendation for Retrieval-Augmented Generation]
-B --> B2[作者：Anu Pradhan, Alexandra Ortan, Apurv Verma, Madhavan Seshadri]
-B --> B3[接收会议：Computation and Language （cs.CL）]
-B --> B4[核心框架：**LLM-as-a-Judge**）]
+B --> B1[论文标题：Knowledge Graph Tokenization for Behavior-Aware Generative Next POI Recommendation]
+B --> B2[作者：Ke Sun, Mayi Xu]
+B --> B3[接收会议：	Information Retrieval （cs.IR）]
+B --> B4[核心框架：**生成式POI推荐方法**）]
 
 A --> C[研究背景与挑战]
 C --> C1[痛点1：现有分词器平等处理异质信号，导致**信息损失**]
