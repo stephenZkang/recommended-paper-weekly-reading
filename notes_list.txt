@@ -32,6 +32,7 @@
 003-genPAS.md
 004-BPE-LLM.md
 005-llm-judge.md
+006-KGTB.md
 
 awssome-rspagers
 collaborative-filtering
