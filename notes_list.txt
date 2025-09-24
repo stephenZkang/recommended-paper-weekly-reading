@@ -35,6 +35,7 @@
 006-KGTB.md
 007-L2D-LLM.md
 008-RecXplore-LLM.md
+009-GREEN-Rec.md
 
 awssome-rspagers
 collaborative-filtering
