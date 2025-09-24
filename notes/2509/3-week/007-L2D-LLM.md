@@ -10,10 +10,10 @@
 graph LR
 A[论文核心：L2D——LLM推荐的高效潜空间解码方法] --> B[基础信息]
 
-B --> B1[论文标题：Knowledge Graph Tokenization for Behavior-Aware Generative Next POI Recommendation]
-B --> B2[作者：Ke Sun, Mayi Xu]
+B --> B1[论文标题：Decoding in Latent Spaces for Efficient Inference in LLM-based Recommendation]
+B --> B2[作者：Chengbing Wang, Yang Zhang, Zhicheng Wang, Tianhao Shi, Keqin Bao, Fuli Feng, Tat-Seng Chua]
 B --> B3[接收会议：	Information Retrieval （cs.IR）]
-B --> B4[核心框架：**生成式POI推荐方法**）]
+B --> B4[核心框架：**L2D——LLM**）]
 
 A --> C[研究背景与挑战]
 C --> C1[现状：LLM生成式推荐效果显著，依赖语言空间自回归解码]
@@ -35,7 +35,7 @@ A --> E[实验验证]
 
 E --> E1[数据集：Amazon CDs（21k用户、14k item）、Amazon Games（34k用户、11k item）]
 E --> E2[基线模型：传统（SASRec、GRU4Rec）、LLM嵌入（AlphaRec）、生成式（BIGRec、GPT4Rec等）]
-E --> E3[关键结果：速度快10倍+，Recall@50等指标优于所有基线]
+E --> E3[关键结果：速度快10倍+，Recall 50等指标优于所有基线]
 
 A --> F[分析与讨论]
 
