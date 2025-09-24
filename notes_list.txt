@@ -33,6 +33,7 @@
 004-BPE-LLM.md
 005-llm-judge.md
 006-KGTB.md
+007-L2D-LLM.md
 
 awssome-rspagers
 collaborative-filtering
