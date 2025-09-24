@@ -34,6 +34,7 @@
 005-llm-judge.md
 006-KGTB.md
 007-L2D-LLM.md
+008-RecXplore-LLM.md
 
 awssome-rspagers
 collaborative-filtering
