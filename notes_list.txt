@@ -41,7 +41,7 @@
 
 2509-4-week
 001-RecBot.md
-002-mamba-rec.md
+002-IntSR.md
 003-perfairx.md
 004-dpg-diff.md
 005-ml-ddd.md
