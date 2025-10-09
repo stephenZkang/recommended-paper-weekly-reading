@@ -12,10 +12,10 @@
 graph LR
 A[论文核心：USB-Rec——LLM对话推荐的训练-推理一体化框架] --> B[基础信息]
 
-B --> B1[论文标题：RecIS: Sparse to Dense, A Unified Training Framework for Recommendation Models]
-B --> B2[作者团队：Hua Zong, Qingtao Zeng, Zhengxiong Zhou, Zhihua Han, Zhensong Yan, Mingjie Liu, Hechen Sun, Jiawei Liu, Yiwen Hu, Qi Wang, YiHan Xian, Wenjie Guo, Houyuan Xiang, Zhiyuan Zeng, Xiangrong Sheng, Bencheng Yan, Nan Hu, Yuheng Huang, Jinqing Lian, Ziru Xu, Yan Zhang, Ju Huang, Siran Yang, Huimin Yi, Jiamang Wang, Pengjie Wang, Han Zhu, Jian Wu, Dan Ou, Jian Xu, Haihong Tang, Yuning Jiang, Bo Zheng, Lin Qu]
+B --> B1[论文标题：USB-Rec: An Effective Framework for Improving Conversational Recommendation Capability of Large Language Model]
+B --> B2[作者团队：Jianyu Wen, Jingyun Wang, Cilin Yan, Jiayin Cai, Xiaolong Jiang, Ying Zhang]
 B --> B3[接收会议：Information Retrieval （cs.IR）; Machine Learning （cs.LG）]
-B --> B4[核心定位：RecIS]
+B --> B4[核心定位：USB-Rec]
 
 A --> C[研究背景与问题]
 C --> C1[行业现状]
