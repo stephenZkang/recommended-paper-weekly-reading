@@ -4,7 +4,7 @@
 003-RecIS.md
 004-USB-Rec.md
 005-MRdIB.md
-006-recmind.md
+006-GFMFR.md
 007-redrec4cps.md
 008-AREIS.md
 009-KAKL.md
