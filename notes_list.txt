@@ -42,7 +42,7 @@
 2509-4-week
 001-RecBot.md
 002-IntSR.md
-003-perfairx.md
+003-RecIS.md
 004-dpg-diff.md
 005-ml-ddd.md
 006-recmind.md
