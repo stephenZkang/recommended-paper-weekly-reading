@@ -11,10 +11,10 @@
 graph LR
 A[论文核心：GFMFR——多模态增强的联邦推荐框架] --> B[基础信息]
 
-B --> B1[论文标题：Multimodal Representation-disentangled Information Bottleneck for Multimodal Recommendation]
-B --> B2[作者团队：Hui Wang, Jinghui Qin, Wushao Wen, Qingling Li, Shanshan Zhong, Zhongzhan Huang]
+B --> B1[论文标题：Multimodal-enhanced Federated Recommendation: A Group-wise Fusion Approach]
+B --> B2[作者团队：Chunxu Zhang, Weipeng Zhang, Guodong Long, Zhiheng Xue, Riting Xia, Bo Yang]
 B --> B3[接收会议：Information Retrieval （cs.IR）; Machine Learning （cs.LG）]
-B --> B4[核心定位：MRdIB]
+B --> B4[核心定位：GFMFR]
 
 A --> C[研究背景与问题]
 C --> C1[联邦推荐（FR）优势：隐私保护，无需原始用户数据]
