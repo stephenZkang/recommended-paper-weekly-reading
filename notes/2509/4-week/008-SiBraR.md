@@ -141,10 +141,10 @@ $`mathcal{L} = \mathcal{L}_{BPR} + \alpha \cdot \mathcal{L}_{SInfoNCE}`$
 **核心结论**：SiBraR在冷启动和缺失模态场景显著优于多分支。  
 | 场景         | 数据集   | 最优模型   | NDCG@10 | 对比多分支提升幅度 |
 |--------------|----------|------------|---------|--------------------|
-| 暖启动       | ML-1M    | CLCRec     | 0.2680  | SiBraR（0.2581）相当 |
+| 暖启动        | ML-1M    | CLCRec     | 0.2680  | SiBraR（0.2581）相当 |
 |              | Onion    | MuBraRSC   | 0.1762  | SiBraRSC（0.1717）接近 |
 |              | Amazon   | MF         | 0.0818  | SiBraRSC（0.0728）接近 |
-| 物品冷启动   | ML-1M    | SiBraRSC   | 0.2994  | 超MuBraRSC（0.2949）1.5% |
+| 物品冷启动     | ML-1M    | SiBraRSC   | 0.2994  | 超MuBraRSC（0.2949）1.5% |
 |              | Onion    | SiBraRSC   | 0.2297  | 超MuBraRSC（0.2276）0.9% |
 |              | Amazon   | SiBraRSC   | 0.1479  | 超MuBraRSC（0.1262）17.2% |
 | 缺失模态（1种） | Onion    | SiBraRSC   | 0.1124  | 超MuBraRSC（0.0921）22.0% |
