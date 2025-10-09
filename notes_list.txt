@@ -5,7 +5,7 @@
 004-USB-Rec.md
 005-MRdIB.md
 006-GFMFR.md
-007-redrec4cps.md
+007-MusiCRS.md
 008-AREIS.md
 009-KAKL.md
 010-Contextual-Bandits.md
