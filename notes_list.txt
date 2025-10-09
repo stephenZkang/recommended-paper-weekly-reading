@@ -6,7 +6,7 @@
 005-MRdIB.md
 006-GFMFR.md
 007-MusiCRS.md
-008-AREIS.md
+008-SiBraR.md
 009-KAKL.md
 010-Contextual-Bandits.md
 011-RecSys-Survey.md
