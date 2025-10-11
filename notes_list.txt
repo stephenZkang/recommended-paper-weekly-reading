@@ -8,7 +8,7 @@
 007-MusiCRS.md
 008-SiBraR.md
 009-RCE-KD.md
-010-Contextual-Bandits.md
+010-DNR.md
 011-RecSys-Survey.md
 012-ELEC.md
 
