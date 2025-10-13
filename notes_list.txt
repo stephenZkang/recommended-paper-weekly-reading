@@ -1,7 +1,7 @@
 2510-1-week
 001-Prompt-as-Policy.md
 002-MMM.md
-003-recbase.md
+003-PLUM.md
 004-rvrec.md
 005-rankgraph.md
 006-mme-sid.md
