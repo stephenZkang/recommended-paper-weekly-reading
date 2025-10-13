@@ -57,7 +57,7 @@
 | 8 | [Single-Branch Network Architectures to Close the Modality Gap in Multimodal Recommendation](https://arxiv.org/abs/2509.18807) <br/>论文核心：SiBraR——单分支多模态推荐框架（缩小模态差距）                      | Christian Ganhör, <br />2025 | ✅ 已读  |       [笔记](notes/2509/4-week/008-SiBraR.md)       |
 | 9 | [Rejuvenating Cross-Entropy Loss in Knowledge Distillation for Recommender Systems](https://arxiv.org/abs/2509.20989)<br/>论文核心：RCE-KD——振兴推荐系统KD中的CE损失                                         | Zhangchi Zhu, 2025           | ✅ 已读 |       [笔记](notes/2509/4-week/009-RCE-KD.md)       |
 | 10 | [Robust Denoising Neural Reranker for Recommender Systems](https://arxiv.org/abs/2509.18736)<br/>论文核心：DNR——去噪神经重排序器（多阶段推荐优化）                                                             | Wenyu Mao,  2025             | ✅ 已读 | [笔记](notes/2509/4-week/010-DNR.md) |
-| 11 | [Shilling Recommender Systems by Generating Side-feature-aware Fake User Profiles](https://arxiv.org/abs/2509.17918) <br/> 论文核心：工业推荐系统综述（产学差距与实践指南）                                     | Yuanrong Wang,  2025         | ⬜️ 未读 |   [笔记](notes/2509/4-week/011-RecSys-Survey.md)    |
+| 11 | [Shilling Recommender Systems by Generating Side-feature-aware Fake User Profiles](https://arxiv.org/abs/2509.17918) <br/> 论文核心：D3Rec——动态漂移感知的多模态推荐框架                                      | Yuanrong Wang,  2025         | ✅ 已读 |   [笔记](notes/2509/4-week/011-D3Rec.md)    |
 | 12 | [Adaptive User Interest Modeling via Conditioned Denoising Diffusion For Click-Through Rate Prediction](https://arxiv.org/abs/2509.19876) <br/> 论文核心：ELEC（高效LLM增强CTR预测框架）                    | Qihang Zhao, 2025            | ⬜️ 未读 |        [笔记](notes/2509/4-week/012-ELEC.md)        |
 
 ### b. 论文周报[0914-0920] (10篇)
