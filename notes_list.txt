@@ -1,5 +1,5 @@
 2510-1-week
-001-item-id-generation.md
+001-Prompt-as-Policy.md
 002-ccss.md
 003-recbase.md
 004-rvrec.md
