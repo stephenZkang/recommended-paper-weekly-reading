@@ -10,7 +10,7 @@
 009-RCE-KD.md
 010-DNR.md
 011-D3Rec.md
-012-ELEC.md
+012-CDP.md
 
 2509-3-week
 001-GRUT.md
