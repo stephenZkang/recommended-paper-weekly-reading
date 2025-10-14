@@ -11,7 +11,7 @@
 graph LR
 A[论文核心：XRec框架的可复现性研究（LLM驱动可解释推荐）] --> B[基础信息]
 
-B --> B1[论文标题：Reproducibility Study of "XRec Large Language Models for Explainable Recommendation"]
+B --> B1[论文标题：Reproducibility Study of XRec: Large Language Models for Explainable Recommendation]
 B --> B2[作者：Ranjan Mishra, Julian I. Bibo, Quinten van Engelen, Henk Schaapman]
 B --> B3[学科分类：Information Retrieval （cs.IR）、Machine Learning]
 B --> B4[核心框架：XRec框架]
