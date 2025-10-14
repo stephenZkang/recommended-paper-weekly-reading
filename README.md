@@ -37,8 +37,8 @@
 | 7 | [Constraint-Aware Route Recommendation from Natural Language via Hierarchical LLM](https://arxiv.org/abs/2510.06078) <br/> 论文核心：RouteLLM——自然语言驱动的约束感知路线推荐框架                                  | Tao Zhe, 2025           |  ✅ 已读   |     [笔记](notes/2510/1-week/007-RouteLLM.md)      |
 | 8 | [AgentDR: Dynamic Recommendation with Implicit Item-Item Relations via LLM-based Agents](https://arxiv.org/abs/2510.05598) <br/>   论文核心：AgentDR——LLM代理驱动的隐式物品关系推荐框架                           | Mingdai Yang, 2025      |  ✅ 已读   |      [笔记](notes/2510/1-week/008-AgentDR.md)      |
 | 9 | [Catalog-Native LLM: Speaking Item-ID Dialect with Less Entanglement for Recommendation](https://arxiv.org/abs/2510.05125) <br/>   论文核心：IDIOMoE——解决LLM推荐知识纠缠的混合专家模型                           | Reza Shirkavand, 2025   |  ✅ 已读   |     [笔记](notes/2510/1-week/009-IDIOMoE.md)     |
-| 10 | [Safely Exploring Novel Actions in Recommender Systems via Deployment-Efficient Policy Learning](https://arxiv.org/abs/2510.07635) <br/> 论文核心：DPG-Diff跨域序列推荐扩散模型                                                                               | Haruka Kiyohara, 2025   |  ⬜️ 未读   |     [笔记](notes/2510/1-week/010-dpg-diff.md)      |
-| 11 | [Limitations of Current Evaluation Practices for Conversational Recommender Systems](https://arxiv.org/abs/2510.05624) <br/> 论文核心：本地LLM驱动的隐私保护网页表单填充推荐器                                                                                        | Nolwenn Bernard, 2025   |  ⬜️ 未读   |     [笔记](notes/2510/1-week/011-local-llm.md)     |
+| 10 | [Safely Exploring Novel Actions in Recommender Systems via Deployment-Efficient Policy Learning](https://arxiv.org/abs/2510.07635) <br/> 论文核心：推荐系统中新颖物品的安全探索框架（Safe OPG + DEPSUE）          | Haruka Kiyohara, 2025   |  ✅ 已读   |     [笔记](notes/2510/1-week/010-Safe-OPG.md)      |
+| 11 | [Limitations of Current Evaluation Practices for Conversational Recommender Systems](https://arxiv.org/abs/2510.05624) <br/> 论文核心：本地LLM驱动的隐私保护网页表单填充推荐器                                    | Nolwenn Bernard, 2025   |  ✅ 已读   |     [笔记](notes/2510/1-week/011-local-llm.md)     |
 
 
 ## 202509

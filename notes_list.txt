@@ -8,7 +8,7 @@
 007-RouteLLM.md
 008-AgentDR.md
 009-IDIOMoE.md
-010-dpg-diff.md
+010-Safe-OPG.md
 011-local-llm.md
 
 2509-4-week
