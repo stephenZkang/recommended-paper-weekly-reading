@@ -5,7 +5,7 @@
 004-RR.md
 005-LLM-as-annotators.md
 006-XRec.md
-007-cda4rec.md
+007-RouteLLM.md
 008-ultra-gcn.md
 009-revbrowse.md
 010-dpg-diff.md
