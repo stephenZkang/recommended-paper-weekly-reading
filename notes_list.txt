@@ -6,7 +6,7 @@
 005-LLM-as-annotators.md
 006-XRec.md
 007-RouteLLM.md
-008-ultra-gcn.md
+008-AgentDR.md
 009-revbrowse.md
 010-dpg-diff.md
 011-local-llm.md
