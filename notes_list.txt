@@ -3,7 +3,7 @@
 002-MMM.md
 003-PLUM.md
 004-RR.md
-005-rankgraph.md
+005-LLM-as-annotators.md
 006-mme-sid.md
 007-cda4rec.md
 008-ultra-gcn.md
