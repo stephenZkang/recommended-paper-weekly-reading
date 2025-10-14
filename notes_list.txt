@@ -2,7 +2,7 @@
 001-Prompt-as-Policy.md
 002-MMM.md
 003-PLUM.md
-004-rvrec.md
+004-RR.md
 005-rankgraph.md
 006-mme-sid.md
 007-cda4rec.md
