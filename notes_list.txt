@@ -1,3 +1,16 @@
+2510-2-week
+001-Prompt-as-Policy.md
+002-MMM.md
+003-PLUM.md
+004-RR.md
+005-LLM-as-annotators.md
+006-XRec.md
+007-RouteLLM.md
+008-AgentDR.md
+009-IDIOMoE.md
+010-Safe-OPG.md
+011-CRSs.md
+
 2510-1-week
 001-Prompt-as-Policy.md
 002-MMM.md
