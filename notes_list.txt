@@ -1,5 +1,5 @@
 2510-2-week
-001-Prompt-as-Policy.md
+001-CE-CDR.md
 002-MMM.md
 003-PLUM.md
 004-RR.md
