@@ -51,7 +51,7 @@ E1 --> E11[数据集：ML-1M（100万交互）、Gowalla（64万交互）、YELP
 E1 --> E12[基线：SasRec（BCE/CE/SCE）、CL4SRec、DuoRec等6个SOTA]
 E1 --> E13[指标：HR-K、NDCG-K（精度）、Cov-K（覆盖率）、有效秩（嵌入多样性）]
 E --> E2[2. 核心结果]
-E2 --> E21[离线性能：Gowalla数据集HR-10=0.0851（较SasRec(SCE)+4.9%），ML-1M数据集NDCG-10=0.0534（+6.2%）]
+E2 --> E21[离线性能：Gowalla数据集HR-10=0.0851（较SasRec（SCE0）+4.9%），ML-1M数据集NDCG-10=0.0534（+6.2%）]
 E2 --> E22[偏差缓解：Gowalla长尾物品（Bucket3）HR-10提升34.6%，有效秩提升25.9%]
 E2 --> E23[超参数控制：α=0.1时ML-1M HR-1=0.0240（+12.7%），α=0.4时Cov-10提升13.9%]
 
