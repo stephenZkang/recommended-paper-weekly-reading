@@ -8,6 +8,7 @@
 - **快速概览**：清晰地查看各个子领域的核心论文和贡献。
 
 ## 目录
+- [202511](#202511)
 - [202510](#202510)
 - [202509](#202509)
 
@@ -22,9 +23,46 @@
 
 ---
 
+## 202511
+
 ## 202510
 
-## a. 论文周报[1013-1019] (20篇)
+## a. 论文周报[1027-1102] (14篇)
+
+| #  | 论文标题 (Title)                                                                                                                                                                      | 作者 & 年份                      |   状态    |                       我的笔记                       |
+|:--:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------|:-------:|:------------------------------------------------:|
+| 1  | [Barlow Twins for Sequential Recommendation](https://arxiv.org/abs/2510.26407)<br/> 论文核心：Prompt-as-Policy——知识图谱驱动的冷启动POI推荐框架                                                      | Ivan Razvorotnev,2025        |  ⬜️ 未读    | [笔记](notes/2510/1-week/001-Prompt-as-Policy.md)  |
+| 2  | [ORBIT - Open Recommendation Benchmark for Reproducible Research with Hidden Tests](https://arxiv.org/abs/2510.26095)<br/> 论文核心：MMM框架——量子化学分子表示学习用于组合药物推荐                         | Jingyuan He,2025             |  ⬜️ 未读   |        [笔记](notes/2510/4-week/002-MMM.md)        |
+| 3  | [WeaveRec: An LLM-Based Cross-Domain Sequential Recommendation Framework with Model Merging](https://arxiv.org/abs/2510.26546)   <br/> 论文核心：PLUM——适配预训练LLM的工业级生成式推荐框架             | Min Hou, 2025                |  ⬜️ 未读    |       [笔记](notes/2510/4-week/003-PLUM.md)        |
+| 4  | [MMQ-v2: Align, Denoise, and Amplify: Adaptive Behavior Mining for Semantic IDs Learning in Recommendation](https://arxiv.org/abs/2510.07621) <br/>  论文核心：Retentive Relevance（RR）——推荐系统的长期用户价值指标              | Saeideh Bakhshi,2025         |  ⬜️ 未读    |        [笔记](notes/2510/4-week/004-RR.md)         |
+| 5  | [Revisiting Scalable Sequential Recommendation with Multi-Embedding Approach and Mixture-of-Experts](https://arxiv.org/abs/2510.25285) <br/> 论文核心：LLM驱动的视频属性标注增强推荐系统                                     | Qiushi Pan, 2025             |  ⬜️ 未读    | [笔记](notes/2510/4-week/005-LLM-as-annotators.md) |
+| 6  | [TV-Rec: Time-Variant Convolutional Filter for Sequential Recommendation](https://arxiv.org/abs/2510.25259) <br/> 论文核心：XRec框架的可复现性研究（LLM驱动可解释推荐）                    | Yehjin Shin, 2025            |  ⬜️ 未读    |       [笔记](notes/2510/4-week/006-XRec.md)        |
+| 7  | [MiniOneRec: An Open-Source Framework for Scaling Generative Recommendation](https://arxiv.org/abs/2510.24431) <br/> 论文核心：RouteLLM——自然语言驱动的约束感知路线推荐框架                       | Xiaoyu Kong, 2025            |  ⬜️ 未读    |     [笔记](notes/2510/4-week/007-RouteLLM.md)      |
+| 8  | [From Time and Place to Preference: LLM-Driven Geo-Temporal Context in Recommendations](https://arxiv.org/abs/2510.24430) <br/>   论文核心：AgentDR——LLM代理驱动的隐式物品关系推荐框架               | Yejin Kim, 2025              |  ⬜️ 未读    |      [笔记](notes/2510/4-week/008-AgentDR.md)      |
+| 9  | [Think before Recommendation: Autonomous Reasoning-enhanced Recommender](https://arxiv.org/abs/2510.23077) <br/>   论文核心：IDIOMoE——解决LLM推荐知识纠缠的混合专家模型               | Xiaoyu Kong, 2025            |  ⬜️ 未读    |      [笔记](notes/2510/4-week/009-IDIOMoE.md)      |
+| 10 | [GTR-Mamba: Geometry-to-Tangent Routing for Hyperbolic POI Recommendation](https://arxiv.org/abs/2510.22942) <br/> 论文核心：推荐系统中新颖物品的安全探索框架（Safe OPG + DEPSUE） | Zhuoxuan Li, 2025            |  ⬜️ 未读    |     [笔记](notes/2510/4-week/010-Safe-OPG.md)      |
+| 11 | [MGFRec: Towards Reinforced Reasoning Recommendation with Multiple Groundings and Feedback](https://arxiv.org/abs/2510.22888) <br/> 论文核心：CRSs评估的局限性与用户模拟的潜力                              | Shihao Cai, 2025             |  ⬜️ 未读    |       [笔记](notes/2510/4-week/011-CRSs.md)        |
+| 12 | [OneTrans: Unified Feature Interaction and Sequence Modeling with One Transformer in Industrial Recommender](https://arxiv.org/abs/2510.26104) <br/> 论文核心：CRSs评估的局限性与用户模拟的潜力                              | Zhaoqi Zhang, 2025           |  ⬜️ 未读    |       [笔记](notes/2510/4-week/011-CRSs.md)        |
+| 13 | [Continual Low-Rank Adapters for LLM-based Generative Recommender Systems](https://arxiv.org/abs/2510.25093) <br/> 论文核心：CRSs评估的局限性与用户模拟的潜力                              | Hyunsik Yoo, 2025            |  ⬜️ 未读    |       [笔记](notes/2510/4-week/011-CRSs.md)        |
+| 14 | [DUET: Dual Model Co-Training for Entire Space CTR Prediction](https://arxiv.org/abs/2510.24369) <br/> 论文核心：CRSs评估的局限性与用户模拟的潜力                              | Yutian Xiao, 2025                       |  ⬜️ 未读    |       [笔记](notes/2510/4-week/011-CRSs.md)        |
+
+
+## b. 论文周报[1020-1026] (10篇)
+
+| # | 论文标题 (Title)                                                                                                                                                                       | 作者 & 年份                |   状态   |                       我的笔记                       |
+|:-:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------|:------:|:------------------------------------------------:|
+| 1 | [Generative Reasoning Recommendation via LLMs](https://arxiv.org/abs/2510.20815)<br/> 论文核心：Prompt-as-Policy——知识图谱驱动的冷启动POI推荐框架                                                     | Minjie Hong,2025       | ⬜️ 未读  | [笔记](notes/2510/3-week/001-Prompt-as-Policy.md)  |
+| 2 | [The Order of Recommendation Matters: Structured Exploration for Improving the Fairness of Content Creators](https://arxiv.org/abs/2510.20698)<br/> 论文核心：MMM框架——量子化学分子表示学习用于组合药物推荐 | Salima Jaoua,2025      | ⬜️ 未读  |        [笔记](notes/2510/3-week/002-MMM.md)        |
+| 3 | [Attention Enhanced Entity Recommendation for Intelligent Monitoring in Cloud Systems](https://arxiv.org/abs/2510.20640)   <br/> 论文核心：PLUM——适配预训练LLM的工业级生成式推荐框架                    | Fiza Hussain, 2025     | ⬜️ 未读  |       [笔记](notes/2510/3-week/003-PLUM.md)        |
+| 4 | [Rotate Both Ways: Time-and-Order RoPE for Generative Recommendation](https://arxiv.org/abs/2510.20455) <br/>  论文核心：Retentive Relevance（RR）——推荐系统的长期用户价值指标                         | Xiaokai Wei,2025       | ⬜️ 未读  |        [笔记](notes/2510/3-week/004-RR.md)         |
+| 5 | [Balancing Fine-tuning and RAG: A Hybrid Strategy for Dynamic LLM Recommendation Updates](https://arxiv.org/abs/2510.20260) <br/> 论文核心：LLM驱动的视频属性标注增强推荐系统                          | Changping Meng, 2025   |  ⬜️ 未读 | [笔记](notes/2510/3-week/005-LLM-as-annotators.md) |
+| 6 | [LEGO: A Lightweight and Efficient Multiple-Attribute Unlearning Framework for Recommender Systems](https://arxiv.org/abs/2510.20327) <br/> 论文核心：XRec框架的可复现性研究（LLM驱动可解释推荐）         | Fengyuan Yu, 2025      | ⬜️ 未读  |       [笔记](notes/2510/3-week/006-XRec.md)        |
+| 7 | [Rank-GRPO: Training LLM-based Conversational Recommender Systems with Reinforcement Learning](https://arxiv.org/abs/2510.20150) <br/> 论文核心：RouteLLM——自然语言驱动的约束感知路线推荐框架            | Yaochen Zhu, 2025      | ⬜️ 未读  |     [笔记](notes/2510/3-week/007-RouteLLM.md)      |
+| 8 | [Scalable LinUCB: Low-Rank Design Matrix Updates for Recommenders with Large Action Spaces](https://arxiv.org/abs/2510.19349) <br/>   论文核心：AgentDR——LLM代理驱动的隐式物品关系推荐框架             | Evgenia Shustova, 2025 | ⬜️ 未读  |      [笔记](notes/2510/3-week/008-AgentDR.md)      |
+| 9 | [Language Models as Semantic Augmenters for Sequential Recommenders](https://arxiv.org/abs/2510.18046) <br/>   论文核心：IDIOMoE——解决LLM推荐知识纠缠的混合专家模型                                    | Mahsa Valizadeh, 2025  | ⬜️ 未读  |      [笔记](notes/2510/3-week/009-IDIOMoE.md)      |
+| 10 | [On Efficiency-Effectiveness Trade-off of Diffusion-based Recommenders](https://arxiv.org/abs/2510.17245) <br/> 论文核心：推荐系统中新颖物品的安全探索框架（Safe OPG + DEPSUE）                           | Wenyu Mao, 2025        | ⬜️ 未读  |     [笔记](notes/2510/3-week/010-Safe-OPG.md)      |
+
+## c. 论文周报[1013-1019] (20篇)
 
 | #  | 论文标题 (Title)                                                                                                                                                                                              | 作者 & 年份                 |  状态   |                       我的笔记                       |
 |:--:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------|:-----:|:------------------------------------------------:|
@@ -49,7 +87,7 @@
 | 19 | [Next Interest Flow: A Generative Pre-training Paradigm for Recommender Systems by Modeling All-domain Movelines](https://arxiv.org/abs/2510.11317) <br/> 论文核心：CRSs评估的局限性与用户模拟的潜力                         | Chen Gao, 2025   | ⬜️ 未读 |       [笔记](notes/2510/2-week/011-CRSs.md)        |
 | 20 | [SMILE: SeMantic Ids Enhanced CoLd Item Representation for Click-through Rate Prediction in E-commerce SEarch](https://arxiv.org/abs/2510.12604) <br/> 论文核心：CRSs评估的局限性与用户模拟的潜力                            | Qihang Zhao, 2025   | ⬜️ 未读 |       [笔记](notes/2510/2-week/011-CRSs.md)        |
 
-## b. 论文周报[1006-1012] (11篇)
+## d. 论文周报[1006-1012] (11篇)
 
 | # | 论文标题 (Title)                                                                                                                                                                                                                                   | 作者 & 年份                 |   状态    |                       我的笔记                       |
 |:-:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------|:-------:|:------------------------------------------------:|
