@@ -73,7 +73,7 @@ slate推荐的用户偏好需满足3条核心公理（确保逻辑自洽）：
 
 **核心目标**：最小化“empirical regret”，即模型推荐的slate与用户真实偏好的效用差距：  
 $`[EmpiricalRegret_{\mathcal{D}}(f) = \frac{1}{N} \sum_{(x,\overline{\mathcal{L}},\mathcal{U}) \in \mathcal{D}} \frac{1}{|\overline{\mathcal{L}}|^2} \sum_{(L_1,L_2) \in \overline{\mathcal{L}}×\overline{\mathcal{L}}} \left[u^*(L_1,L_2) - f^*(L_1,L_2|x)\right]]`$  
-其中$`(u^*\)为用户真实偏好的效用，$`(f^*\)为LLM预测偏好的效用，regret越低表示LLM与用户偏好越对齐。
+其中$`(u^*)`$为用户真实偏好的效用，$`(f^*)`$为LLM预测偏好的效用，regret越低表示LLM与用户偏好越对齐。
 
 ##### 2.2 LLM-as-a-Judge框架细节
 | 组件               | 设计逻辑                                                                 | 关键参数/示例                                                                 |
