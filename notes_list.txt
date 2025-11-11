@@ -1,6 +1,6 @@
 2511-1-week
 001-LLM-as-a-Judge.md
-002-ORBIT.md
+002-DRCSD.md
 003-Gemi-Rec.md
 004-Co-Co.md
 005-LLM-as-annotators.md
