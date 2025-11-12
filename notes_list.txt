@@ -1,8 +1,8 @@
 2511-1-week
 001-LLM-as-a-Judge.md
 002-DRCSD.md
-003-Gemi-Rec.md
-004-Co-Co.md
+003-OMRC-MR.md
+004-MMCoD.md
 005-LLM-as-annotators.md
 006-XRec.md
 007-RouteLLM.md
