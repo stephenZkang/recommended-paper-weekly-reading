@@ -3,13 +3,12 @@
 002-DRCSD.md
 003-OMRC-MR.md
 004-MMCoD.md
-005-LLM-as-annotators.md
-006-XRec.md
+005-ScalingEval.md
+006-KGBridge.md
 007-RouteLLM.md
 008-AgentDR.md
 009-IDIOMoE.md
 010-Safe-OPG.md
-011-CRSs.md
 
 2510-4-week
 001-BT-SR.md
