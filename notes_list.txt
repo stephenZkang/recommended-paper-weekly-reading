@@ -5,8 +5,8 @@
 004-MMCoD.md
 005-ScalingEval.md
 006-KGBridge.md
-007-RouteLLM.md
-008-AgentDR.md
+007-VIRAL.md
+008-RippleNet.md
 009-IDIOMoE.md
 010-Safe-OPG.md
 
