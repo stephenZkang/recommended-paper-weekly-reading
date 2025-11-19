@@ -1,7 +1,7 @@
 2511-2-week
 001-GPR.md
 002-CREAT.md
-003-OMRC-MR.md
+003-GIRAM.md
 004-MMCoD.md
 005-ScalingEval.md
 006-KGBridge.md
