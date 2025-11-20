@@ -38,7 +38,7 @@
 008-Geo-Temporal.md
 009-RecZero-RecOne.md
 010-GTR-Mamba.md
-011-CRSs.md
+011-MGFRec.md
 
 2510-2-week
 001-CE-CDR.md
