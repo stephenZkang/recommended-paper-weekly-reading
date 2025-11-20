@@ -35,7 +35,7 @@
 005-Fuxi-MME.md
 006-TV-Rec.md
 007-MiniOneRec.md
-008-AgentDR.md
+008-Geo-Temporal.md
 009-IDIOMoE.md
 010-Safe-OPG.md
 011-CRSs.md
