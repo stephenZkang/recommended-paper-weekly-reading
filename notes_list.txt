@@ -36,7 +36,7 @@
 006-TV-Rec.md
 007-MiniOneRec.md
 008-Geo-Temporal.md
-009-IDIOMoE.md
+009-RecZero-RecOne.md
 010-Safe-OPG.md
 011-CRSs.md
 
