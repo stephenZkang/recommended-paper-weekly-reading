@@ -6,7 +6,7 @@
 005-GenCDR.md
 006-LLaDA-Rec.md
 007-AdaRec.md
-008-RippleNet.md
+008-WEARec.md
 009-IDIOMoE.md
 010-Safe-OPG.md
 
