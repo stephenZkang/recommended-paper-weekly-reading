@@ -31,8 +31,8 @@
 001-BT-SR.md
 002-ORBIT.md
 003-WeaveRec.md
-004-Retentive-Relevance.md
-005-LLM-as-annotators.md
+004-MMQ-v2.md
+005-Retentive-Relevance.md
 006-XRec.md
 007-RouteLLM.md
 008-AgentDR.md
