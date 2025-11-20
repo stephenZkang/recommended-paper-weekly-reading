@@ -4,7 +4,7 @@
 003-GIRAM.md
 004-HID.md
 005-GenCDR.md
-006-KGBridge.md
+006-LLaDA-Rec.md
 007-VIRAL.md
 008-RippleNet.md
 009-IDIOMoE.md
