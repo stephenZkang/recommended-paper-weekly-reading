@@ -76,10 +76,10 @@ F --> F2[价值：1）性能优：超现有基线；2）效率高：计算成本
 ##### 1. 核心模块详解
 | 模块                | 功能描述                                                                 | 关键细节/公式                                                                 |
 |---------------------|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| **1. 初始化嵌入（双曲空间）** | 预训练用户/POI/类别/区域的层级嵌入，捕捉多实体关系                          | 1. 实体关系构建：<br>   - 用户-POI边：用户访问过的POI；<br>   - POI-POI边：6小时内连续访问的POI；<br>   - 类别/区域边：基于POI关系推导；<br>2. 旋转对齐：用块对角旋转矩阵（Rot）对齐不同实体嵌入，保留Lorentz内积；<br>3. 对比损失：\(\mathcal{L}=-\sum_t [log\sigma(s_{pos,t}) + log\sigma(-s_{neg,t})]\)，\(s_{pos,t}=-\text{max}(d_L^2(x',y),0)\)（\(d_L^2\)为Lorentz距离） |
-| **2. 跨流形时空融合通道**   | 编码欧氏时空特征，与双曲嵌入融合，为SSM提供上下文驱动信号                    | 1. 地理编码：<br>   - RFF（随机傅里叶特征）捕捉全局地理模式；<br>   - RBF（径向基函数）捕捉局部锚点特征；<br>   - 动态融合：\(E_g=Linear(rff_{proj}·w_1 + rbf_{proj}·w_2)\)，\(w=softmax(Linear(Concat(rff_{proj},rbf_{proj})))\)；<br>2. 时间编码：\(E_t=Concat(\Delta t, sin(\omega\Delta t), cos(\omega\Delta t), OH(dow), OH(hour))\)，\(\gamma_t=sigmoid(E_t·w_{gate})\)（时间衰减因子）；<br>3. 跨流形注意力：在切空间计算注意力（\(score_{att}=q·k^T/\sqrt{d_{head}}\)），Möbius加法融合回双曲空间 |
-| **3. GTR-Mamba层**         | 实现几何-切空间路由，在切空间高效更新SSM状态，平衡层级与动态建模              | 1. 状态空间模型（SSM）：<br>   - 动态步长：\(\Delta t=(A_proj(u_c)·dt_weight + dt_bias)·\gamma_t\)；<br>   - 离散化：\(\overline{A}=exp(\Delta t·A)\)，\(\overline{B}=(exp(\Delta t·A)-I)A^{-1}\)（A为固定对角矩阵）；<br>2. 切空间更新：<br>   - 映射：\(log_o(q_t)\)将双曲输入投影到切空间；<br>   - 更新：\(h_t=\overline{A}_t·h_{t-1} + \overline{B}_t·log_o(q_t)\)；<br>   - 回映射：\(H_t=exp_o(h_t) \oplus_c bias\)（\(\oplus_c\)为Möbius加法）；<br>3. 残差连接：\(E_{traj}^{(t)}=H_{t-1} \oplus_c LorentzLinear(H_t)\) |
-| **4. 预测与损失**           | 双空间评分融合，多任务优化提升推荐准确性                                  | 1. 双空间评分：<br>   - 双曲评分：\(s_{hyperbolic}=-\sqrt{d_L^2(E_{traj},p)}/\tau\)；<br>   - 切空间评分：\(s_{tangent}=Linear(log_o(E_{traj}))\)；<br>   - 融合：\(s=\alpha·s_{tangent}+(1-\alpha)·s_{hyperbolic}\)（\(\alpha\)为学习权重）；<br>2. 多任务损失：\(\mathcal{L}_{all}=\mathcal{L}_{poi}+\mathcal{L}_{cat}+\mathcal{L}_{reg}\)（均为交叉熵损失） |
+| **1. 初始化嵌入（双曲空间）** | 预训练用户/POI/类别/区域的层级嵌入，捕捉多实体关系                          | 1. 实体关系构建：<br>   - 用户-POI边：用户访问过的POI；<br>   - POI-POI边：6小时内连续访问的POI；<br>   - 类别/区域边：基于POI关系推导；<br>2. 旋转对齐：用块对角旋转矩阵（Rot）对齐不同实体嵌入，保留Lorentz内积；<br>3. 对比损失：$`(\mathcal{L}=-\sum_t [log\sigma(s_{pos,t}) + log\sigma(-s_{neg,t})])`$，$`(s_{pos,t}=-\text{max}(d_L^2(x',y),0))`$（$`(d_L^2)`$为Lorentz距离） |
+| **2. 跨流形时空融合通道**   | 编码欧氏时空特征，与双曲嵌入融合，为SSM提供上下文驱动信号                    | 1. 地理编码：<br>   - RFF（随机傅里叶特征）捕捉全局地理模式；<br>   - RBF（径向基函数）捕捉局部锚点特征；<br>   - 动态融合：$`(E_g=Linear(rff_{proj}·w_1 + rbf_{proj}·w_2))`$，$`(w=softmax(Linear(Concat(rff_{proj},rbf_{proj}))))`$；<br>2. 时间编码：$`(E_t=Concat(\Delta t, sin(\omega\Delta t), cos(\omega\Delta t), OH(dow), OH(hour)))`$，$`(\gamma_t=sigmoid(E_t·w_{gate}))`$（时间衰减因子）；<br>3. 跨流形注意力：在切空间计算注意力（$`(score_{att}=q·k^T/\sqrt{d_{head}})`$），Möbius加法融合回双曲空间 |
+| **3. GTR-Mamba层**         | 实现几何-切空间路由，在切空间高效更新SSM状态，平衡层级与动态建模              | 1. 状态空间模型（SSM）：<br>   - 动态步长：$`(\Delta t=(A_proj(u_c)·dt_weight + dt_bias)·\gamma_t)`$；<br>   - 离散化：$`(\overline{A}=exp(\Delta t·A))`$，$`(\overline{B}=(exp(\Delta t·A)-I)A^{-1})`$（A为固定对角矩阵）；<br>2. 切空间更新：<br>   - 映射：$`(log_o(q_t))`$将双曲输入投影到切空间；<br>   - 更新：$`(h_t=\overline{A}_t·h_{t-1} + \overline{B}_t·log_o(q_t))`$；<br>   - 回映射：$`(H_t=exp_o(h_t) \oplus_c bias)`$（$`(\oplus_c)`$为Möbius加法）；<br>3. 残差连接：$`(E_{traj}^{(t)}=H_{t-1} \oplus_c LorentzLinear(H_t))`$ |
+| **4. 预测与损失**           | 双空间评分融合，多任务优化提升推荐准确性                                  | 1. 双空间评分：<br>   - 双曲评分：$`(s_{hyperbolic}=-\sqrt{d_L^2(E_{traj},p)}/\tau)`$；<br>   - 切空间评分：$`(s_{tangent}=Linear(log_o(E_{traj})))`$；<br>   - 融合：$`(s=\alpha·s_{tangent}+(1-\alpha)·s_{hyperbolic})`$（$`(\alpha)`$为学习权重）；<br>2. 多任务损失：$`(\mathcal{L}_{all}=\mathcal{L}_{poi}+\mathcal{L}_{cat}+\mathcal{L}_{reg})`$（均为交叉熵损失） |
 
 ##### 2. 关键设计亮点
 - **双空间协同**：双曲空间捕捉层级结构（利用指数体积增长特性），欧氏切空间实现高效动态更新（避免Möbius运算），兼顾表征能力与计算效率；
@@ -170,9 +170,9 @@ F --> F2[价值：1）性能优：超现有基线；2）效率高：计算成本
 #### 问题2：GTR-Mamba的“上下文驱动SSM”如何通过动态步长适配用户行为的时空变化？这种动态适配在高上下文切换场景中为何比固定步长模型更鲁棒？
 **答案**：
 1. **动态步长实现**：
-   - 步长计算：\(\Delta t=(A_proj(u_c)·dt_weight + dt_bias)·\gamma_t\)，其中\(u_c=Concat(E_g,E_t)\)（欧氏时空特征），\(\gamma_t\)（时间衰减因子）由时间编码模块生成；
-   - 时空信号驱动：地理特征（如POI间距离）决定步长基础值（近距POI步长小，更新精细；远距POI步长大，更新高效），时间特征（如签到间隔）通过\(\gamma_t\)调节步长（短间隔步长小，捕捉近期行为；长间隔步长大，遗忘过时偏好）；
-   - SSM离散化：基于动态步长计算状态转移矩阵\(\overline{A}\)与输入矩阵\(\overline{B}\)，实现状态的上下文感知更新。
+   - 步长计算：$`(\Delta t=(A_proj(u_c)·dt_weight + dt_bias)·\gamma_t)`$，其中$`(u_c=Concat(E_g,E_t))`$（欧氏时空特征），$`(\gamma_t)`$（时间衰减因子）由时间编码模块生成；
+   - 时空信号驱动：地理特征（如POI间距离）决定步长基础值（近距POI步长小，更新精细；远距POI步长大，更新高效），时间特征（如签到间隔）通过$`(\gamma_t)`$调节步长（短间隔步长小，捕捉近期行为；长间隔步长大，遗忘过时偏好）；
+   - SSM离散化：基于动态步长计算状态转移矩阵$`(\overline{A})`$与输入矩阵$`(\overline{B})`$，实现状态的上下文感知更新。
 
 2. **高切换场景鲁棒性原因**：
    - 固定步长模型（如GeoMamba2025）：采用统一步长更新，在行为切换时（如用户从“工作日通勤”突然转为“周末旅行”），易因步长不匹配导致状态更新滞后，推荐准确率下降20%+；
