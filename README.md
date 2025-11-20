@@ -57,7 +57,7 @@
 | 7 | [Enhancing Multimodal Recommendations with Vision-Language Models and Information-Aware Fusion](https://arxiv.org/abs/2511.02113) <br/> 论文核心：VIRAL——视觉-语言信息感知的多模态推荐框架                               | Hai-Dang Kieu, 2025      | ✅ 已读 |       [笔记](notes/2511/1-week/007-VIRAL.md)    |
 | 8 | [Solving Cold Start in News Recommendations: a RippleNet-based System for Large Scale Media Outlet](https://arxiv.org/abs/2511.02052) <br/>   论文核心：基于RippleNet的新闻推荐冷启动解决方案                           | Karol Radziszewski, 2025 | ✅ 已读 |   [笔记](notes/2511/1-week/008-RippleNet.md)    |
 | 9 | [A Soft-partitioned Semi-supervised Collaborative Transfer Learning Approach for Multi-Domain Recommendation](https://arxiv.org/abs/2511.01404) <br/> 论文核心：SSCTL-一种面向多域推荐（MDR）的软划分半监督协同迁移学习框架  | Xiaoyu Liu, 2025         | ✅ 已读 |     [笔记](notes/2511/1-week/009-SSCTL.md)      |
-| 10 | [Structurally Refined Graph Transformer for Multimodal Recommendation](https://arxiv.org/abs/2511.00584) <br/> 论文核心：推荐系统中新颖物品的安全探索框架（Safe OPG + DEPSUE）                                           | Ke Shi, 2025             | ⬜️ 未读 |    [笔记](notes/2511/1-week/010-Safe-OPG.md)    |
+| 10 | [Structurally Refined Graph Transformer for Multimodal Recommendation](https://arxiv.org/abs/2511.00584) <br/> 论文核心：SSCTL-一种面向多域推荐（MDR）的软划分半监督协同迁移学习框架                                        | Ke Shi, 2025             | ✅ 已读 |    [笔记](notes/2511/1-week/010-SRGFormer.md)    |
 
 
 ## 202510
