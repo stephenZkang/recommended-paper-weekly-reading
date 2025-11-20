@@ -40,8 +40,8 @@
 010-GTR-Mamba.md
 011-MGFRec.md
 012-OneTrans.md
-011-MGFRec.md
-011-MGFRec.md
+013-PESO.md
+014-DUET.md
 
 2510-2-week
 001-CE-CDR.md
