@@ -31,7 +31,7 @@ D11 --> D111[四步结构化推理：<analyze user>（提取用户偏好）→<a
 D11 --> D112[强制格式：用特殊标签约束输出，确保推理轨迹可解析]
 D1 --> D12[核心组件2：规则化奖励]
 D12 --> D121[格式奖励（R_format）：正确格式+0.5，错误格式-0.5]
-D12 --> D122[评分奖励（R_answer）：1 - |真实评分-预测评分|/max_error（max_error=4，评分范围1-5）]
+D12 --> D122[评分奖励（R_answer）：1 - （真实评分-预测评分）/max_error（max_error=4，评分范围1-5）]
 D12 --> D123[总奖励：R = R_format + R_answer]
 D1 --> D13[优化算法：GRPO（Group Relative Policy Optimization），按组计算相对优势，稳定训练]
 D --> D2[2. RecOne（SFT+RL混合范式）]
