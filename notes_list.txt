@@ -20,7 +20,7 @@
 006-KGBridge.md
 007-VIRAL.md
 008-RippleNet.md
-009-IDIOMoE.md
+009-SSCTL.md
 010-Safe-OPG.md
 
 2510-4-week
