@@ -32,7 +32,7 @@
 002-ORBIT.md
 003-WeaveRec.md
 004-MMQ-v2.md
-005-Retentive-Relevance.md
+005-Fuxi-MME.md
 006-XRec.md
 007-RouteLLM.md
 008-AgentDR.md
