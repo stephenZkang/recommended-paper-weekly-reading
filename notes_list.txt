@@ -46,7 +46,7 @@
 2510-3-week
 001-GREAM.md
 002-ORM.md
-003-Gemi-Rec.md
+003-DiRecGNN.md
 004-Co-Co.md
 005-LLM-as-annotators.md
 006-XRec.md
