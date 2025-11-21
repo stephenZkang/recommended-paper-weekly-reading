@@ -43,8 +43,8 @@
 013-PESO.md
 014-DUET.md
 
-2510-2-week
-001-CE-CDR.md
+2510-3-week
+001-GREAM.md
 002-MR-Rec.md
 003-Gemi-Rec.md
 004-Co-Co.md
