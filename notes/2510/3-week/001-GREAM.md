@@ -9,10 +9,9 @@
 graph LR
 A[论文核心：GREAM-框架通过三大组件实现统一的“理解-推理-预测”推荐范式] --> B[基础信息]
 
-B --> B1[论文标题：MIRA: Empowering One-Touch AI Services on Smartphones with MLLM-based Instruction Recommendation]
-B --> B2[作者：Geon Lee, Bhuvesh Kumar, Clark Mingxuan Ju, Tong Zhao, Kijung Shin, Neil Shah, Liam Collins]
-B --> B3[核心目标：简化AI服务访问，实现“长按触发-指令推荐-一键执行”]
-B --> B4[触发对象：文本、图像（当前）；音频/视频/传感器数据（未来）]
+B --> B1[论文标题：Generative Reasoning Recommendation via LLMs]
+B --> B2[作者：Minjie Hong, Zetong Zhou, Zirun Guo, Ziang Zhang, Ruofan Hu, Weinan Gan, Jieming Zhu, Zhou Zhao]
+B --> B3[核心目标：GREAM]
 
 A --> C[研究背景与挑战]
 C --> C1[LLM推荐核心痛点]
