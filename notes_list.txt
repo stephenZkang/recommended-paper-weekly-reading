@@ -2,7 +2,7 @@
 001-Prism.md
 002-MRS.md
 003-EvoRec.md
-004-HID.md
+004-LHRL.md
 005-GenCDR.md
 006-LLaDA-Rec.md
 007-AdaRec.md
