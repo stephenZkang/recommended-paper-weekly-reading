@@ -3,10 +3,10 @@
 002-MRS.md
 003-EvoRec.md
 004-LHRL.md
-005-GenCDR.md
-006-LLaDA-Rec.md
-007-AdaRec.md
-008-WEARec.md
+005-ItemRAG.md
+006-MACRec.md
+007-MACRec-GCL.md
+008-RecLLM-Adapter.md
 009-L2UnRank.md
 010-GGR.md
 011-MARC.md
