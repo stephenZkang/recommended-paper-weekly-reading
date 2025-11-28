@@ -43,7 +43,7 @@
 | 12 | [CafeMed: Causal Attention Fusion Enhanced Medication Recommendation](https://arxiv.org/abs/2511.14064) <br/> 论文核心：CafeMed-一种因果注意力融合增强的药物推荐框架                                                             | Kelin Ren, 2025      | ✅ 已读 |    [笔记](notes/2511/3-week/012-CafeMed.md)     |
 | 13 | [Mitigating Recommendation Biases via Group-Alignment and Global-Uniformity in Representation Learning](https://arxiv.org/abs/2511.13041) <br/> 论文核心：AURL-缓解表征分布中的组差异与全局坍缩问题                              | Miaomiao Cai, 2025   | ✅ 已读 |      [笔记](notes/2511/3-week/013-AURL.md)      |
 | 14 | [Tokenize Once, Recommend Anywhere: Unified Item Tokenization for Multi-domain LLM-based Recommendation](https://arxiv.org/abs/2511.12922) <br/> 论文核心：UniTok-一种面向多领域LLM推荐的统一物品分词框架                        | Yu Hou, 2025         | ✅ 已读 |     [笔记](notes/2511/3-week/014-UniTok.md)     |
-| 15 | [Can We Predict the Next Question? A Collaborative Filtering Approach to Modeling User Behavior](https://arxiv.org/abs/2511.12949) <br/> 论文核心：VAE-CF-分析了VAE协同过滤（VAE-CF）的协作机制                          | Bokang Fu, 2025      | ⬜️ 未读 |     [笔记](notes/2511/3-week/014-VAE-CF.md)     |
+| 15 | [Can We Predict the Next Question? A Collaborative Filtering Approach to Modeling User Behavior](https://arxiv.org/abs/2511.12949) <br/> 论文核心：CFQP-解决现有LLM对话系统静态建模用户偏好、无法捕捉动态序列行为的核心问题            | Bokang Fu, 2025      | ✅ 已读 |     [笔记](notes/2511/3-week/015-CFQP.md)     |
 | 16 | [Infer As You Train: A Symmetric Paradigm of Masked Generative for Click-Through Rate Prediction](https://arxiv.org/abs/2511.14403) <br/> 论文核心：VAE-CF-分析了VAE协同过滤（VAE-CF）的协作机制                         | Moyu Zhang, 2025     | ⬜️ 未读 |     [笔记](notes/2511/3-week/014-VAE-CF.md)     |
 
 

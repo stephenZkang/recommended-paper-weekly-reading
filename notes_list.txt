@@ -13,7 +13,7 @@
 012-CafeMed.md
 013-AURL.md
 014-UniTok.md
-015-ReFiT.md
+015-CFQP.md
 016-VAE-CF.md
 
 2511-2-week
