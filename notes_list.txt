@@ -10,9 +10,9 @@
 009-DevPiolt.md
 010-LGSID.md
 011-WebRec.md
-012-LLMHNI.md
-013-ReFiT.md
-014-VAE-CF.md
+012-CafeMed.md
+013-AURL.md
+014-UniTok.md
 015-ReFiT.md
 016-VAE-CF.md
 
