@@ -88,9 +88,9 @@ RecLLM-Adapter通过轻量级适配模块与优化策略，平衡性能与效率
 
 ##### 2. 损失函数与训练策略
 总损失函数融合推荐、生成与蒸馏目标，确保多任务协同优化：  
-\[
+$`[
 \mathcal{L}_{total} = \mathcal{L}_{rec} + \lambda_1\mathcal{L}_{gen} + \lambda_2\mathcal{L}_{distill}
-\]
+]`$
 - $`(\mathcal{L}_{rec})`$：BPR损失（优化推荐排序）；
 - $`(\mathcal{L}_{gen})`$：交叉熵损失（优化解释生成流畅性）；
 - $`(\lambda_1=0.3)`$，$`(\lambda_2=0.5)`$（实验最优超参）；
