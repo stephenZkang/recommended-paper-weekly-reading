@@ -14,7 +14,7 @@ B --> B2[作者：Hao Jiang, Guoquan Wang, Donglin Zhou, Sheng Yu, Yang Zeng, We
 B --> B3[接收会议：Information Retrieval （cs.IR）Artificial Intelligence （cs.AI）]
 B --> B4[核心框架：LGSID]
 
-A --> C[研究背景：小米Home IoT操作推荐痛点]
+A --> C[研究背景：本地生活推荐的核心痛点]
 C --> C1[LLM推荐核心痛点]
 C1 --> C11[语义鸿沟：LLM预训练（文本生成）与推荐任务（偏好建模）目标不一致]
 C1 --> C12[效率低下：11B+参数LLM推理 latency > 500ms，无法适配实时推荐]
