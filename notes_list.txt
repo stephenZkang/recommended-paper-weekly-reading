@@ -7,12 +7,14 @@
 006-MACRec.md
 007-MACRec-GCL.md
 008-RecLLM-Adapter.md
-009-L2UnRank.md
-010-GGR.md
+009-DevPiolt.md
+010-LGSID.md
 011-MARC.md
 012-LLMHNI.md
 013-ReFiT.md
 014-VAE-CF.md
+015-ReFiT.md
+016-VAE-CF.md
 
 2511-2-week
 001-GPR.md
