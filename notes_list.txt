@@ -14,7 +14,7 @@
 013-AURL.md
 014-UniTok.md
 015-CFQP.md
-016-VAE-CF.md
+016-SGCTR.md
 
 2511-2-week
 001-GPR.md
