@@ -49,7 +49,7 @@ E1 --> E13[指标：AUC（核心）、在线CTR]
 E --> E2[2. 核心结果]
 E2 --> E21[离线：工业数据集AUC=0.8361（超DGenCTR 0.23%），Criteo AUC=0.8186（超DGenCTR 0.19%）]
 E2 --> E22[在线：A/B测试CTR相对提升2.1%]
-E2 --> E23[消融：SGCTR(OneStep)比SGCTR低0.87% AUC，证明多轮迭代价值]
+E2 --> E23[消融：SGCTR（OneStep）比SGCTR低0.87% AUC，证明多轮迭代价值]
 
 A --> F[研究价值]
 
