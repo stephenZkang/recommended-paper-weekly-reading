@@ -54,8 +54,8 @@ F2 --> F23[限制编辑范围：仅修改特定API层，保护通用知识]
 A --> G[实验结果]
 
 G --> G1[关键发现]
-G1 --> G11[AdaLoRA：有效性/泛化性/可移植性最优，特异性最差】
-G1 --> G12[AdaLoRA-L：特异性提升836%（Qwen2.5-Coder）、33%（StarCoder2）、310%（DeepSeek-Coder）]
+G1 --> G11[AdaLoRA：有效性/泛化性/可移植性最优，特异性最差]
+G1 --> G12[AdaLoRA-L：特异性提升836.2%（Qwen2.5-Coder）、33.5%（StarCoder2）、310.2%（DeepSeek-Coder）]
 G1 --> G13[效率：单编辑耗时2-5秒，峰值内存约10GB，适配24GB GPU]
 G --> G2[额外洞察]
 G2 --> G21[余弦/平方调度函数最优，迭代步数T=8时性能平衡]
