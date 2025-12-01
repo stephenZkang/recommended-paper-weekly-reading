@@ -28,19 +28,6 @@
 
 ## a. 论文周报[1124-1130] (10篇)
 
-| #  | 论文标题 (Title)                                                                                                                                                                                                    | 作者 & 年份            |   状态   |                     我的笔记                      |
-|:--:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|:------:|:---------------------------------------------:|
-| 1  | [Lightweight Model Editing for LLMs to Correct Deprecated API Recommendations](https://arxiv.org/abs/2511.21022)<br/> 论文核心：Prism-解决现有耦合框架中“推荐排序与解释生成目标冲突”的问题                                                    | Guancheng Lin,2025 |  ⬜️ 未读  |     [笔记](notes/2511/4-week/001-Prism.md)      |
-| 2  | [Semantics Meet Signals: Dual Codebook Representationl Learning for Generative Recommendation](https://arxiv.org/abs/2511.20673)<br/> 论文核心：MRS-系统分析LLM驱动音乐推荐系统（MRS）的挑战、机遇与评估范式                                  | Zheng Hui,2025     |  ⬜️ 未读  |      [笔记](notes/2511/4-week/002-MRS.md)       |
-| 3  | [Lower Bias, Higher Welfare: How Creator Competition Reshapes Bias-Variance Tradeoff in Recommendation Platforms?](https://arxiv.org/abs/2511.20289) <br/> 论文核心：EvoRec-一种基于Locate-Forget-Update范式的高效LLM推荐系统进化框架 | Kang Wang, 2025    |  ⬜️ 未读  |     [笔记](notes/2511/4-week/003-EvoRec.md)     |
-| 4  | [Enhancing Sequential Recommendation with World Knowledge from Large Language Models](https://arxiv.org/abs/2511.20177) <br/> 论文核心：LHRL-解决传统方法忽视物品动态价值的缺陷                                                       | Tianjie Dai,2025   |  ⬜️ 未读  |      [笔记](notes/2511/4-week/004-LHRL.md)      |
-| 5  | [Towards A Tri-View Diffusion Framework for Recommendation](https://arxiv.org/abs/2511.20122) <br/>论文核心：ItemRAG-一种面向LLM推荐的物品级检索增强生成（RAG）方法                                                                      | Ximing Chen, 2025  |  ⬜️ 未读  |    [笔记](notes/2511/4-week/005-ItemRAG.md)     |
-| 6  | [LLM-EDT: Large Language Model Enhanced Cross-domain Sequential Recommendation with Dual-phase Training](https://arxiv.org/abs/2511.19931) <br/> 论文核心：MACRec-一种面向生成式推荐（GR）的多模态跨模态量化框架                           | Ziwei Liu, 2025    |  ⬜️ 未读  |     [笔记](notes/2511/4-week/006-MACRec.md)     |
-| 7  | [SCoTER: Structured Chain-of-Thought Transfer for Enhanced Recommendation](https://arxiv.org/abs/2511.19514) <br/> 论文核心：MACRec-GCL-一种针对图对比学习（GCL）推荐系统的多视图子空间对齐框                                                 | Yang Wu, 2025      |  ⬜️ 未读  |   [笔记](notes/2511/4-week/007-MACRec-GCL.md)   |
-| 8  | [Heterogeneous Multi-treatment Uplift Modeling for Trade-off Optimization in Short-Video Recommendation](https://arxiv.org/abs/2511.18997) <br/> 论文核心：RecLLM-Adapter-一种面向LLM推荐系统的轻量级适配框架                        | Chenhao Zhai, 2025 |  ⬜️ 未读  | [笔记](notes/2511/4-week/008-RecLLM-Adapter.md) |
-| 9  | [NEZHA: A Zero-sacrifice and Hyperspeed Decoding Architecture for Generative Recommendations](https://arxiv.org/abs/2511.18793) <br/> 论文核心：DevPiolt-一种面向小米Home IoT设备的LLM-based操作推荐框架                            | Yejing Wang, 2025  |  ⬜️ 未读  |    [笔记](notes/2511/4-week/009-DevPiolt.md)    |
-| 10 | [Multimodal Large Language Models with Adaptive Preference Optimization for Sequential Recommendation](https://arxiv.org/abs/2511.18740) <br/>论文核心：LGSID-一种面向本地生活推荐的LLM对齐地理物品分词框架                               | Yu Wang, 2025      |  ⬜️ 未读  |     [笔记](notes/2511/4-week/010-LGSID.md)      |
-
 
 ## 202511
 
