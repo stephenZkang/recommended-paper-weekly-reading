@@ -1,6 +1,6 @@
 2511-4-week
 001-EDAPIBench.md
-002-MRS.md
+002-FlexCode.md
 003-EvoRec.md
 004-LHRL.md
 005-ItemRAG.md
