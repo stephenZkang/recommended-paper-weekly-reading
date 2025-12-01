@@ -16,7 +16,7 @@ B --> B4[核心定位：EDAPIBench]
 
 A --> C[研究背景：LLM代码补全的核心痛点]
 C --> C1[问题本质]
-C1 --> C11[LLM训练数据时效性有限，37.4%的API推荐为废弃版本（如PyTorch的torch.svd()→torch.linalg.svd()）]
+C1 --> C11[LLM训练数据时效性有限，37.4%的API推荐为废弃版本（如PyTorch的torch.svd（）→torch.linalg.svd（））]
 C1 --> C12[现有解决方案缺陷：全量重训成本高，REPLACEAPI需拦截解码流程，兼容性差]
 C --> C2[研究缺口]
 C2 --> C21[缺乏废弃API知识编辑的专用基准]
