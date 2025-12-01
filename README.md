@@ -25,7 +25,35 @@
 
 ## 202511
 
-## a. 论文周报[1117-1123] (16篇)
+## a. 论文周报[1124-1130] (22篇)
+
+| #  | 论文标题 (Title)                                                                                                                                                                                                    | 作者 & 年份            |   状态   |                     我的笔记                      |
+|:--:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|:------:|:---------------------------------------------:|
+| 1  | [Lightweight Model Editing for LLMs to Correct Deprecated API Recommendations](https://arxiv.org/abs/2511.21022)<br/> 论文核心：Prism-解决现有耦合框架中“推荐排序与解释生成目标冲突”的问题                                                    | Guancheng Lin,2025 |  ⬜️ 未读  |     [笔记](notes/2511/4-week/001-Prism.md)      |
+| 2  | [Semantics Meet Signals: Dual Codebook Representationl Learning for Generative Recommendation](https://arxiv.org/abs/2511.20673)<br/> 论文核心：MRS-系统分析LLM驱动音乐推荐系统（MRS）的挑战、机遇与评估范式                                  | Zheng Hui,2025     |  ⬜️ 未读  |      [笔记](notes/2511/4-week/002-MRS.md)       |
+| 3  | [Lower Bias, Higher Welfare: How Creator Competition Reshapes Bias-Variance Tradeoff in Recommendation Platforms?](https://arxiv.org/abs/2511.20289) <br/> 论文核心：EvoRec-一种基于Locate-Forget-Update范式的高效LLM推荐系统进化框架 | Kang Wang, 2025    |  ⬜️ 未读  |     [笔记](notes/2511/4-week/003-EvoRec.md)     |
+| 4  | [Enhancing Sequential Recommendation with World Knowledge from Large Language Models](https://arxiv.org/abs/2511.20177) <br/> 论文核心：LHRL-解决传统方法忽视物品动态价值的缺陷                                                       | Tianjie Dai,2025   |  ⬜️ 未读  |      [笔记](notes/2511/4-week/004-LHRL.md)      |
+| 5  | [Towards A Tri-View Diffusion Framework for Recommendation](https://arxiv.org/abs/2511.20122) <br/>论文核心：ItemRAG-一种面向LLM推荐的物品级检索增强生成（RAG）方法                                                                      | Ximing Chen, 2025  |  ⬜️ 未读  |    [笔记](notes/2511/4-week/005-ItemRAG.md)     |
+| 6  | [LLM-EDT: Large Language Model Enhanced Cross-domain Sequential Recommendation with Dual-phase Training](https://arxiv.org/abs/2511.19931) <br/> 论文核心：MACRec-一种面向生成式推荐（GR）的多模态跨模态量化框架                           | Ziwei Liu, 2025    |  ⬜️ 未读  |     [笔记](notes/2511/4-week/006-MACRec.md)     |
+| 7  | [SCoTER: Structured Chain-of-Thought Transfer for Enhanced Recommendation](https://arxiv.org/abs/2511.19514) <br/> 论文核心：MACRec-GCL-一种针对图对比学习（GCL）推荐系统的多视图子空间对齐框                                                 | Yang Wu, 2025      |  ⬜️ 未读  |   [笔记](notes/2511/4-week/007-MACRec-GCL.md)   |
+| 8  | [Heterogeneous Multi-treatment Uplift Modeling for Trade-off Optimization in Short-Video Recommendation](https://arxiv.org/abs/2511.18997) <br/> 论文核心：RecLLM-Adapter-一种面向LLM推荐系统的轻量级适配框架                        | Chenhao Zhai, 2025 |  ⬜️ 未读  | [笔记](notes/2511/4-week/008-RecLLM-Adapter.md) |
+| 9  | [NEZHA: A Zero-sacrifice and Hyperspeed Decoding Architecture for Generative Recommendations](https://arxiv.org/abs/2511.18793) <br/> 论文核心：DevPiolt-一种面向小米Home IoT设备的LLM-based操作推荐框架                            | Yejing Wang, 2025  |  ⬜️ 未读  |    [笔记](notes/2511/4-week/009-DevPiolt.md)    |
+| 10 | [Multimodal Large Language Models with Adaptive Preference Optimization for Sequential Recommendation](https://arxiv.org/abs/2511.18740) <br/>论文核心：LGSID-一种面向本地生活推荐的LLM对齐地理物品分词框架                               | Yu Wang, 2025      |  ⬜️ 未读  |     [笔记](notes/2511/4-week/010-LGSID.md)      |
+| 11 | [When and What to Recommend: Joint Modeling of Timing and Content for Active Sequential Recommendation](https://arxiv.org/abs/2511.18717) <br/>论文核心：WebRec-一种基于Web的检索增强生成（RAG）框架                                | Jin Chai, 2025     |  ⬜️ 未读  |     [笔记](notes/2511/4-week/011-WebRec.md)     |
+| 12 | [When Top-ranked Recommendations Fail: Modeling Multi-Granular Negative Feedback for Explainable and Robust Video Recommendation](https://arxiv.org/abs/2511.18700) <br/> 论文核心：CafeMed-一种因果注意力融合增强的药物推荐框架       | Siran Chen, 2025   |  ⬜️ 未读  |    [笔记](notes/2511/4-week/012-CafeMed.md)     |
+| 13 | [Time Matters: Enhancing Sequential Recommendations with Time-Guided Graph Neural ODEs](https://arxiv.org/abs/2511.18347) <br/> 论文核心：AURL-缓解表征分布中的组差异与全局坍缩问题                                                    | Haoyan Fu, 2025    |  ⬜️ 未读  |      [笔记](notes/2511/4-week/013-AURL.md)      |
+| 14 | [A Needle in a Haystack: Intent-driven Reusable Artifacts Recommendation with LLMs](https://arxiv.org/abs/2511.18343) <br/> 论文核心：UniTok-一种面向多领域LLM推荐的统一物品分词框架                                                   | Dongming Jin, 2025 |  ⬜️ 未读  |     [笔记](notes/2511/4-week/014-UniTok.md)     |
+| 15 | [Large Language Model Enhanced Graph Invariant Contrastive Learning for Out-of-Distribution Recommendation](https://arxiv.org/abs/2511.18282) <br/> 论文核心：CFQP-解决现有LLM对话系统静态建模用户偏好、无法捕捉动态序列行为的核心问题               | Jiahao Liang, 2025 |  ⬜️ 未读  |      [笔记](notes/2511/4-week/015-CFQP.md)      |
+| 16 | [Democratic Recommendation with User and Item Representatives Produced by Graph Condensation](https://arxiv.org/abs/2511.18279) <br/> 论文核心：SGCTR-一种训练与推理阶段对称的掩码生成式CTR预测框架                                       | Jiahao Liang, 2025 | ⬜️ 未读   |     [笔记](notes/2511/4-week/016-SGCTR.md)      |
+| 17 | [Fidelity-Aware Recommendation Explanations via Stochastic Path Integration](https://arxiv.org/abs/2511.18047) <br/> 论文核心：SGCTR-一种训练与推理阶段对称的掩码生成式CTR预测框架                                                        | Oren Barkan, 2025  | ⬜️ 未读   |     [笔记](notes/2511/4-week/016-SGCTR.md)      |
+| 18 | [A Probabilistic Framework for Temporal Distribution Generalization in Industry-Scale Recommender Systems](https://arxiv.org/abs/2511.21032) <br/> 论文核心：SGCTR-一种训练与推理阶段对称的掩码生成式CTR预测框架                          | Yuxuan Zhu, 2025   | ⬜️ 未读   |     [笔记](notes/2511/4-week/016-SGCTR.md)      |
+| 19 | [E2E-GRec: An End-to-End Joint Training Framework for Graph Neural Networks and Recommender Systems](https://arxiv.org/abs/2511.20564) <br/> 论文核心：SGCTR-一种训练与推理阶段对称的掩码生成式CTR预测框架                                | Rui Xue, 2025      | ⬜️ 未读   |     [笔记](notes/2511/4-week/016-SGCTR.md)      |
+| 20 | [Extracting Interaction-Aware Monosemantic Concepts in Recommender Systems](https://arxiv.org/abs/2511.18024) <br/> 论文核心：SGCTR-一种训练与推理阶段对称的掩码生成式CTR预测框架                                                         | Dor Arviv, 2025    | ⬜️ 未读   |     [笔记](notes/2511/4-week/016-SGCTR.md)      |
+| 21 | [Save, Revisit, Retain: A Scalable Framework for Enhancing User Retention in Large-Scale Recommender Systems](https://arxiv.org/abs/2511.18013) <br/> 论文核心：SGCTR-一种训练与推理阶段对称的掩码生成式CTR预测框架                       | Weijie Jiang, 2025 | ⬜️ 未读   |     [笔记](notes/2511/4-week/016-SGCTR.md)      |
+| 22 | [RIA: A Ranking-Infused Approach for Optimized listwise CTR Prediction](https://arxiv.org/abs/2511.21394) <br/> 论文核心：SGCTR-一种训练与推理阶段对称的掩码生成式CTR预测框架                                                             | Guoxiao Zhang, 2025 | ⬜️ 未读   |     [笔记](notes/2511/4-week/016-SGCTR.md)      |
+
+
+## b. 论文周报[1117-1123] (16篇)
 
 | #  | 论文标题 (Title)                                                                                                                                                                                          | 作者 & 年份             |   状态   |                     我的笔记                      |
 |:--:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|:------:|:---------------------------------------------:|
@@ -47,7 +75,7 @@
 | 16 | [Infer As You Train: A Symmetric Paradigm of Masked Generative for Click-Through Rate Prediction](https://arxiv.org/abs/2511.14403) <br/> 论文核心：SGCTR-一种训练与推理阶段对称的掩码生成式CTR预测框架                           | Moyu Zhang, 2025    | ✅ 已读   |     [笔记](notes/2511/3-week/016-SGCTR.md)     |
 
 
-## b. 论文周报[1110-1116] (14篇)
+## c. 论文周报[1110-1116] (14篇)
 
 | #  | 论文标题 (Title)                                                                                                                                                                                                        | 作者 & 年份               |  状态  |                   我的笔记                   |
 |:--:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------|:----:|:----------------------------------------:|
@@ -66,7 +94,7 @@
 | 13 | [Fine-Tuning Diffusion-Based Recommender Systems via Reinforcement Learning with Reward Function Optimization](https://arxiv.org/abs/2511.06937) <br/> 论文核心：ReFiT-一种针对扩散模型推荐系统的强化学习微调框架                                 | Yu Hou, 2025          | ✅ 已读 |   [笔记](notes/2511/2-week/013-ReFiT.md)   |
 | 14 | [On the Mechanisms of Collaborative Learning in VAE Recommenders](https://arxiv.org/abs/2511.06781) <br/> 论文核心：VAE-CF-分析了VAE协同过滤（VAE-CF）的协作机制                                                                               | Tung-Long Vuong, 2025 | ✅ 已读 |  [笔记](notes/2511/2-week/014-VAE-CF.md)   |
 
-## c. 论文周报[1103-1109] (10篇)
+## d. 论文周报[1103-1109] (10篇)
 
 | # | 论文标题 (Title)                                                                                                                                                                                   | 作者 & 年份                  |  状态   |                     我的笔记                      |
 |:-:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------|:-----:|:---------------------------------------------:|
