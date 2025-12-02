@@ -5,7 +5,7 @@
 004-GRASP.md
 005-TV-Diff.md
 006-LLM-EDT.md
-007-MACRec-GCL.md
+007-SCoTER.md
 008-RecLLM-Adapter.md
 009-DevPiolt.md
 010-LGSID.md
