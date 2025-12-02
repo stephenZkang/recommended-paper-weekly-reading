@@ -4,7 +4,7 @@
 003-C3BV.md
 004-GRASP.md
 005-TV-Diff.md
-006-MACRec.md
+006-LLM-EDT.md
 007-MACRec-GCL.md
 008-RecLLM-Adapter.md
 009-DevPiolt.md
