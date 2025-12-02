@@ -3,7 +3,7 @@
 002-FlexCode.md
 003-C3BV.md
 004-GRASP.md
-005-ItemRAG.md
+005-TV-Diff.md
 006-MACRec.md
 007-MACRec-GCL.md
 008-RecLLM-Adapter.md
