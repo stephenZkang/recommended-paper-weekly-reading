@@ -8,7 +8,7 @@
 007-SCoTER.md
 008-HMUM.md
 009-NEZHA.md
-010-LGSID.md
+010-HaNoRec.md
 011-WebRec.md
 012-CafeMed.md
 013-AURL.md
