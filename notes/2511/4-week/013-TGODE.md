@@ -9,9 +9,9 @@
 graph LR
 A[论文核心：TGODE框架——核心解决序列推荐中不规则用户兴趣与物品分布不均衡两大痛点] --> B[基础信息]
 
-B --> B1[论文标题：When Top-ranked Recommendations Fail: Modeling Multi-Granular Negative Feedback for Explainable and Robust Video Recommendation]
-B --> B2[作者团队：Siran Chen, Boyu Chen, Chenyun Yu, Yi Ouyang, Cheng Lei, Chengxiang Zhuo, Zang Li, Yali Wang]
-B --> B3[接收会议：Multimedia （cs.MM）]
+B --> B1[论文标题：Time Matters: Enhancing Sequential Recommendations with Time-Guided Graph Neural ODEs]
+B --> B2[作者团队：Haoyan Fu, Zhida Qin, Shixiao Yang, Haoyao Zhang, Bin Lu, Shuang Li, Tianyu Huang, John C.S. Lui]
+B --> B3[接收会议：Information Retrieval （cs.IR）]
 B --> B4[核心定位：TGODE框架]
 
 A --> C[研究背景：核心痛点]
