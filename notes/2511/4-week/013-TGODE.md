@@ -45,7 +45,7 @@ A --> E[实验验证]
 
 E --> E1[数据集：Beauty、Sports、Toys、Video、ML-100K]
 E --> E2[基线：传统（GRU4Rec）、Transformer（SASRec）、扩散（DiffRec）等12种]
-E --> E3[关键结果：Recall@10最高9.30%，较基线提升10%-46%]
+E --> E3[关键结果：Recall-10最高9.30%，较基线提升10%-46%]
 
 
 A --> F[核心价值]
