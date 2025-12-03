@@ -15,7 +15,7 @@
 014-IntentRecBench.md
 015-InvGCLLM.md
 016-DemoRec.md
-016-DemoRec.md
+017-SPINRec.md
 016-DemoRec.md
 016-DemoRec.md
 
