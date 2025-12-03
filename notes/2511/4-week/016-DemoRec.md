@@ -8,8 +8,8 @@
 graph LR
 A[论文核心：DemoRec框架——核心解决大规模 bipartite 图推荐的计算效率低与信息传播不足问题] --> B[基础信息]
 
-B --> B1[论文标题：Large Language Model Enhanced Graph Invariant Contrastive Learning for Out-of-Distribution Recommendation]
-B --> B2[作者团队：Jiahao Liang, Haoran Yang, Xiangyu Zhao, Zhiwen Yu, Mianjie Li, Chuan Shi, Kaixiang Yang]
+B --> B1[论文标题：Democratic Recommendation with User and Item Representatives Produced by Graph Condensation]
+B --> B2[作者团队：Jiahao Liang, Haoran Yang, Xiangyu Zhao, Zhiwen Yu, Guandong Xu, Wanyu Wang, Kaixiang Yang]
 B --> B3[接收会议：Information Retrieval （cs.IR）]
 B --> B4[核心定位：DemoRec框架]
 
