@@ -16,8 +16,11 @@
 015-InvGCLLM.md
 016-DemoRec.md
 017-SPINRec.md
-016-DemoRec.md
-016-DemoRec.md
+018-ELBOₜₙₛ.md
+019-E2E-GRec.md
+020-SAE.md
+021-RVBM.md
+022-RIA.md
 
 2511-3-week
 001-Prism.md
