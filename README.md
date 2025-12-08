@@ -26,7 +26,20 @@
 
 ## 202512
 
-## a. 论文周报[1201-1207] (?篇)
+## a. 论文周报[1201-1207] (10篇)
+
+|  #   | 论文标题 (Title)                                                                                                                                                                                       | 作者 & 年份                    |   状态   |                     我的笔记                      |
+|:----:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------|:------:|:---------------------------------------------:|
+|  1   | [Multi-LLM Collaboration for Medication Recommendation](https://arxiv.org/abs/2512.05066)<br/> 论文核心：LLM-as-a-Judge——slate推荐的用户偏好世界模型                                                               | Huascar Sanchez,2025       | ⬜️ 未读  | [笔记](notes/2511/1-week/001-LLM-as-a-Judge.md) |
+|  2   | [Beyond Similarity: Personalized Federated Recommendation with Composite Aggregation](https://dl.acm.org/doi/10.1145/3779442)<br/> 论文核心：DRCSD——基于协同信号解耦的去噪推荐模型                                     | Honglei Zhang,2025         | ⬜️ 未读  |     [笔记](notes/2511/1-week/002-DRCSD.md)      |
+|  3   | [LLM as Explainable Re-Ranker for Recommendation System](https://arxiv.org/abs/2512.03439)   <br/> 论文核心：OMRC-MR——语篇感知的科学论文推荐框架                                                                     | Yaqi Wang, 2025            | ⬜️ 未读  |    [笔记](notes/2511/1-week/003-OMRC-MR.md)     |
+|  4   | [AskNearby: An LLM-Based Application for Neighborhood Information Retrieval and Personalized Cognitive-Map Recommendations](https://arxiv.org/abs/2512.02502) <br/>  论文核心：MMCoD——跨模态对比去噪的多模态推荐框架   | Luyao Niu,2025             | ⬜️ 未读  |     [笔记](notes/2511/1-week/004-MMCoD.md)      |
+|  5   | [Q-BERT4Rec: Quantized Semantic-ID Representation Learning for Multimodal Recommendation](https://arxiv.org/abs/2512.02474) <br/> 论文核心：ScalingEval——无人工参与的互补物品推荐LLM评估框架                            | Haofeng Huang, 2025        | ⬜️ 未读  |  [笔记](notes/2511/1-week/005-ScalingEval.md)   |
+|  6   | [Structured Spectral Reasoning for Frequency-Adaptive Multimodal Recommendation](https://arxiv.org/abs/2512.01372) <br/> 论文核心：KGBridge——知识引导提示学习的非重叠跨域推荐框架                                         | Wei Yang, 2025             | ⬜️ 未读  |    [笔记](notes/2511/1-week/006-KGBridge.md)    |
+|  7   | [UserSimCRS v2: Simulation-Based Evaluation for Conversational Recommender Systems](https://arxiv.org/abs/2512.04588) <br/> 论文核心：VIRAL——视觉-语言信息感知的多模态推荐框架                                          | Nolwenn Bernard, 2025      | ⬜️ 未读  |     [笔记](notes/2511/1-week/007-VIRAL.md)      |
+|  8   | [Toward a benchmark for CTR prediction in online advertising: datasets, evaluation protocols and perspectives](https://arxiv.org/abs/2512.01179) <br/>   论文核心：基于RippleNet的新闻推荐冷启动解决方案              | Shan Gao, 2025             | ⬜️ 未读  |   [笔记](notes/2511/1-week/008-RippleNet.md)    |
+|  9   | [CoDeR+: Interest-aware Counterfactual Reasoning for Sequential Recommendation](https://doi.org/10.1145/3778863) <br/> 论文核心：SSCTL-一种面向多域推荐（MDR）的软划分半监督协同迁移学习框架                               | Sitao Lin, 2025            | ⬜️ 未读  |     [笔记](notes/2511/1-week/009-SSCTL.md)      |
+| 10   | [Rethinking Convolutional Neural Network in Multimodal Sequential Recommendation](https://dl.acm.org/doi/10.1145/3777377) <br/> 论文核心：SSCTL-一种面向多域推荐（MDR）的软划分半监督协同迁移学习框架                      | hicheng Zhou, 2025         |  ⬜️ 未读 |     [笔记](notes/2511/1-week/010-SRGFormer.md)  |
 
 
 ## 202511

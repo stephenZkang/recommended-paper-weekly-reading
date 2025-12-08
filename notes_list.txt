@@ -1,3 +1,15 @@
+2512-1-week
+001-LLM-as-a-Judge.md
+002-DRCSD.md
+003-OMRC-MR.md
+004-MMCoD.md
+005-ScalingEval.md
+006-KGBridge.md
+007-VIRAL.md
+008-RippleNet.md
+009-SSCTL.md
+010-SRGFormer.md
+
 2511-4-week
 001-EDAPIBench.md
 002-FlexCode.md
