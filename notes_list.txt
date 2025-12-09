@@ -1,5 +1,5 @@
 2512-1-week
-001-LLM-as-a-Judge.md
+001-LLM-Chemistry.md
 002-DRCSD.md
 003-OMRC-MR.md
 004-MMCoD.md
