@@ -4,7 +4,7 @@
 003-LLM-ER.md
 004-AskNearby.md
 005-Q-Bert4Rec.md
-006-KGBridge.md
+006-SSR.md
 007-VIRAL.md
 008-RippleNet.md
 009-SSCTL.md
