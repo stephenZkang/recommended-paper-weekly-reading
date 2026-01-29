@@ -26,7 +26,29 @@
 ---
 ## 202601
 
-## a. 论文周报[0105-0111] (18篇)
+## a. 论文周报[0119-0125] (16篇)
+
+| #  | 论文标题 (Title)                                                                                                                                                                                                             | 作者 & 年份                                |   状态   |                       我的笔记                        |
+|:--:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------|:------:|:-------------------------------------------------:|
+| 1  | [MMGRid: Navigating Temporal-aware and Cross-domain Generative Recommendation via Model Merging](https://arxiv.org/abs/2601.15930)<br/> 论文核心：WALS—一种将协同过滤嵌入与LLM融合的框架                                                     | Tianjun Wei,2026                       | ⬜️ 未读  | [笔记](notes/2026/2601/2-week/001-WALS.md) |
+| 2  | [CoNRec: Context-Discerning Negative Recommendation with LLMs](https://arxiv.org/abs/2601.15721)<br/> 论文核心：FedCAR——解决联邦推荐（FR）中直接套用联邦视觉领域的相似性聚合方法导致的嵌入偏差问题                                                                | Xinda Chen,2026                    | ⬜️ 未读  |    [笔记](notes/2025/2512/1-week/002-FedCAR.md)     |
+| 3  | [Enhancing guidance for missing data in diffusion-based sequential recommendation](https://arxiv.org/abs/2601.15673)   <br/> 论文核心：LLM-ER——解决传统推荐系统可解释性不足、存在流行度偏差及LLM单独作为预测器准确率低的问题                                       | Qilong Yan, 2026                    | ⬜️ 未读  |    [笔记](notes/2025/2512/1-week/003-LLM-ER.md)     |
+| 4  | [BanditLP: Large-Scale Stochastic Optimization for Personalized Recommendations](https://arxiv.org/abs/2601.15552) <br/>论文核心：AskNearby——解决“15分钟城市”愿景下传统定位系统忽视局部生活信息可达性的问题                                                | Phuc Nguyen,2026                     | ⬜️ 未读  |   [笔记](notes/2025/2512/1-week/004-AskNearby.md)   |
+| 5  | [Multi-Behavior Sequential Modeling with Transition-Aware Graph Attention Network for E-Commerce Recommendation](https://arxiv.org/abs/2601.14955) <br/> 论文核心：Q-Bert4Rec框架——解决传统序列推荐模型依赖无语义离散物品ID、忽视多模态信息导致泛化性弱与可解释性差的问题 | Hanqi Jin, 2026                       | ⬜️ 未读  |  [笔记](notes/2025/2512/1-week/005-Q-Bert4Rec.md)   |
+| 6  | [When Text-as-Vision Meets Semantic IDs in Generative Recommendation: An Empirical Study](https://arxiv.org/abs/2601.14697) <br/> 论文核心：SSR框架——解决多模态推荐中模态噪声、语义不一致及用户-物品图传播不稳定的问题                                          | Shutong Qiao, 2026                          | ⬜️ 未读  |      [笔记](notes/2025/2512/1-week/006-SSR.md)      |
+| 7  | [IB-GRPO: Aligning LLM-based Learning Path Recommendation with Educational Objectives via Indicator-Based Group Relative Policy Optimization](https://arxiv.org/abs/2601.14686) <br/> 论文核心：VIRAL——视觉-语言信息感知的多模态推荐框架      | Shuai Wang, 2026                        | ⬜️ 未读  |     [笔记](notes/2025/2512/1-week/007-VIRAL.md)     |
+| 8  | [The Unfairness of Multifactorial Bias in Recommendation](https://arxiv.org/abs/2601.12828) <br/>   论文核心：基于RippleNet的新闻推荐冷启动解决方案                                                                                         | Masoud Mansoury, 2026                     | ⬜️ 未读  |   [笔记](notes/2025/2512/1-week/008-RippleNet.md)   |
+| 9  | [Actionable Advice from Reviews via Mixture of LoRA Experts: A Two-LLM Pipeline for Issue Extraction and Business Recommendations](https://arxiv.org/abs/2601.12338) <br/> 论文核心：SSCTL-一种面向多域推荐（MDR）的软划分半监督协同迁移学习框架       | Kartikey Singh Bhandari, 2026                       | ⬜️ 未读  |     [笔记](notes/2025/2512/1-week/009-SSCTL.md)     |
+| 10 | [Facet-Aware Multi-Head Mixture-of-Experts Model with Text-Enhanced Pre-training for Sequential Recommendation](https://arxiv.org/abs/2601.12301) <br/> 论文核心：SSCTL-一种面向多域推荐（MDR）的软划分半监督协同迁移学习框架                          | Mingrui Liu, 2026                          |  ⬜️ 未读 |   [笔记](notes/2025/2512/1-week/010-SRGFormer.md)   |
+| 11 | [PULSE: Socially-Aware User Representation Modeling Toward Parameter-Efficient Graph Collaborative Filtering](https://arxiv.org/abs/2601.14720)<br/> 论文核心：LLM Chemistry——解决医疗领域单一大语言模型（LLM）易产生幻觉、一致性差                    | Doyun Choi,2026                        | ⬜️ 未读  | [笔记](notes/2025/2512/1-week/001-LLM-Chemistry.md) |
+| 12 | [PromptHelper: A Prompt Recommender System for Encouraging Creativity in AI Chatbot Interactions](https://arxiv.org/abs/2601.15575)<br/> 论文核心：FedCAR——解决联邦推荐（FR）中直接套用联邦视觉领域的相似性聚合方法导致的嵌入偏差问题                             | Jason Kim,2026                        | ⬜️ 未读  |    [笔记](notes/2025/2512/1-week/002-FedCAR.md)     |
+| 13 | [From Insight to Intervention: Interpretable Neuron Steering for Controlling Popularity Bias in Recommender Systems](https://arxiv.org/abs/2601.15122)   <br/> 论文核心：LLM-ER——解决传统推荐系统可解释性不足、存在流行度偏差及LLM单独作为预测器准确率低的问题     | Parviz Ahmadov, 2026                      | ⬜️ 未读  |    [笔记](notes/2025/2512/1-week/003-LLM-ER.md)     |
+| 14 | [Balancing Fairness and High Match Rates in Reciprocal Recommender Systems: A Nash Social Welfare Approach](https://arxiv.org/abs/2601.13609) <br/>论文核心：AskNearby——解决“15分钟城市”愿景下传统定位系统忽视局部生活信息可达性的问题                     | Yoji Tomita,2026                       | ⬜️ 未读  |   [笔记](notes/2025/2512/1-week/004-AskNearby.md)   |
+| 15 | [Integrating Vision-Centric Text Understanding for Conversational Recommender Systems](https://arxiv.org/abs/2601.13505) <br/> 论文核心：Q-Bert4Rec框架——解决传统序列推荐模型依赖无语义离散物品ID、忽视多模态信息导致泛化性弱与可解释性差的问题                           | Wei Yuan, 2026                            | ⬜️ 未读  |  [笔记](notes/2025/2512/1-week/005-Q-Bert4Rec.md)   |
+| 16 | [HyFormer: Revisiting the Roles of Sequence Modeling and Feature Interaction in CTR Prediction](https://arxiv.org/abs/2601.12681) <br/> 论文核心：SSR框架——解决多模态推荐中模态噪声、语义不一致及用户-物品图传播不稳定的问题                                    | Yunwen Huang, 2026                     | ⬜️ 未读  |      [笔记](notes/2025/2512/1-week/006-SSR.md)      |
+
+
+## b. 论文周报[0112-0118] (16篇)
 
 | #  | 论文标题 (Title)                                                                                                                                                                                                                  | 作者 & 年份                                |   状态   |                       我的笔记                        |
 |:--:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------|:------:|:-------------------------------------------------:|
@@ -48,7 +70,7 @@
 | 16 | [GAP-Net: Calibrating User Intent via Gated Adaptive Progressive Learning for CTR Prediction](https://arxiv.org/abs/2601.07613) <br/> 论文核心：SSR框架——解决多模态推荐中模态噪声、语义不一致及用户-物品图传播不稳定的问题                                           | Shenqiang Ke, 2026                     | ⬜️ 未读  |      [笔记](notes/2025/2512/1-week/006-SSR.md)      |
 
 
-## b. 论文周报[0105-0111] (18篇)
+## c. 论文周报[0105-0111] (18篇)
 
 | #  | 论文标题 (Title)                                                                                                                                                                                                                 | 作者 & 年份                             |   状态   |                       我的笔记                        |
 |:--:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------|:------:|:-------------------------------------------------:|
@@ -72,7 +94,7 @@
 | 18 | [Socially-Aware Recommender Systems Mitigate Opinion Clusterization](https://arxiv.org/abs/2601.02412) <br/>   论文核心：基于RippleNet的新闻推荐冷启动解决方案                                                                                  | Lukas Schüepp, 2026                 | ⬜️ 未读  |   [笔记](notes/2025/2512/1-week/008-RippleNet.md)   |
 
 
-## c. 论文周报[1209-0104] (15篇)
+## d. 论文周报[1209-0104] (15篇)
 
 | #  | 论文标题 (Title)                                                                                                                                                                                                                                        | 作者 & 年份              |   状态   |                     我的笔记                      |
 |:--:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------|:------:|:---------------------------------------------:|
