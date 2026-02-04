@@ -8,7 +8,9 @@
 007-CoRec.md
 008-MultiRec.md
 009-MetaRec.md
-010-SRGFormer.md
+010-CausalRec.md
+011-LLMRec.md
+012-EdgeRec.md
 
 2601-4-week
 001-MMGRid.md
