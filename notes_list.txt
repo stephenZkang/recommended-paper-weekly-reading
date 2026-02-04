@@ -5,9 +5,9 @@
 004-Zenith.md
 005-OneMall.md
 006-RecDCL.md
-007-VIRAL.md
-008-RippleNet.md
-009-SSCTL.md
+007-CoRec.md
+008-MultiRec.md
+009-MetaRec.md
 010-SRGFormer.md
 
 2601-4-week
