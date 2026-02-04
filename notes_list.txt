@@ -1,10 +1,10 @@
 2602-1-week
-001-WALS.md
-002-FedCAR.md
-003-LLM-ER.md
-004-AskNearby.md
-005-Q-Bert4Rec.md
-006-SSR.md
+001-SpecTran.md
+002-Double-Edged.md
+003-SAGE.md
+004-Zenith.md
+005-OneMall.md
+006-RecDCL.md
 007-VIRAL.md
 008-RippleNet.md
 009-SSCTL.md
