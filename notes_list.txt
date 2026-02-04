@@ -11,10 +11,10 @@
 010-SRGFormer.md
 
 2601-4-week
-001-WALS.md
-002-FedCAR.md
-003-LLM-ER.md
-004-AskNearby.md
+001-MMGRid.md
+002-CoNRec.md
+003-CARD.md
+004-BanditLP.md
 005-Q-Bert4Rec.md
 006-SSR.md
 007-VIRAL.md
