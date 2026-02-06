@@ -11,6 +11,10 @@
 010-CausalRec.md
 011-LLMRec.md
 012-EdgeRec.md
+013-RecFusion.md
+014-FedRec.md
+015-AutoRec.md
+
 
 2601-4-week
 001-MMGRid.md
