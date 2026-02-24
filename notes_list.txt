@@ -5,9 +5,9 @@
 004-LMMRec.md
 005-AMR.md
 006-VK-LSVD.md
-007-AdaRec.md
-008-WEARec.md
-009-L2UnRank.md
+007-DOS.md
+008-MiniRec.md
+009-MSCGRec.md
 010-GGR.md
 011-MARC.md
 012-LLMHNI.md
