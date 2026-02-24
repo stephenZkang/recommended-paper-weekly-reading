@@ -8,9 +8,9 @@
 007-DOS.md
 008-MiniRec.md
 009-MSCGRec.md
-010-GGR.md
-011-MARC.md
-012-LLMHNI.md
+010-CARE.md
+011-AesRec.md
+012-SCASRec.md
 013-ReFiT.md
 014-VAE-CF.md
 015-AutoRec.md
