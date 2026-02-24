@@ -43,9 +43,9 @@
 | 10 | [Bringing Reasoning to Generative Recommendation Through the Lens of Cascaded Ranking](https://arxiv.org/abs/2602.03692)<br/>论文核心：将级联排序推理引入生成推荐，提出CARE框架解决生成中的偏差放大问题，提升推荐准确率与多样性 | Xinyu Lin,2026 | ✅ 已读 |     [笔记](notes/2026/2602/2-week/010-CARE.md)      |
 | 11 | [AesRec: A Dataset for Aesthetics-Aligned Clothing Outfit Recommendation](https://arxiv.org/abs/2602.03416)<br/>论文核心：发布服装搭配美学对齐推荐数据集，构建多维度美学评价指标，基于视觉语言模型实现大规模美学评分并验证人机一致性 | Wenxin Ye,2026 | ✅ 已读 |    [笔记](notes/2026/2602/2-week/011-AesRec.md)     |
 | 12 | [SCASRec: A Self-Correcting and Auto-Stopping Model for Generative Route List Recommendation](https://arxiv.org/abs/2602.03324)<br/>论文核心：生成式路线列表推荐的自校正与自动停止模型，整合排序与去重为端到端流程，已落地实际导航应用 | Chao Chen,2026 | ✅ 已读 |    [笔记](notes/2026/2602/2-week/012-SCASRec.md)    |
-| 13 | [De-conflating Preference and Qualification: Constrained Dual-Perspective Reasoning for Job Recommendation with Large Language Models](https://arxiv.org/abs/2602.03097)<br/>论文核心：基于LLM的求职推荐双视角推理框架，解耦求职者偏好与雇主资质要求，提升推荐可控性 | Bryce Kan,2026 | ⬜️ 未读 |     [笔记](notes/2026/2602/2-week/13-JobRec.md)     |
-| 14 | [GLASS: A Generative Recommender for Long-sequence Modeling via SID-Tier and Semantic Search](https://arxiv.org/abs/2602.05663)<br/>论文核心：基于SID层与语义搜索的长序列生成推荐框架，将长期用户兴趣融入生成过程，解决长序列建模难题 | Shiteng Cao,2026 | ⬜️ 未读 |     [笔记](notes/2026/2602/2-week/14-GLASS.md)      |
-| 15 | [Distribution-Aware End-to-End Embedding for Streaming Numerical Features in Click-Through Rate Prediction](https://arxiv.org/abs/2602.03223)<br/>论文核心：点击率预测中流形数值特征的分布感知端到端嵌入框架，解决静态分箱的语义漂移问题，已落地头部短视频平台 | Jiahao Liu,2026 | ⬜️ 未读 |      [笔记](notes/2026/2602/2-week/15-DAES.md)      |
+| 13 | [De-conflating Preference and Qualification: Constrained Dual-Perspective Reasoning for Job Recommendation with Large Language Models](https://arxiv.org/abs/2602.03097)<br/>论文核心：基于LLM的求职推荐双视角推理框架，解耦求职者偏好与雇主资质要求，提升推荐可控性 | Bryce Kan,2026 | ⬜️ 未读 |    [笔记](notes/2026/2602/2-week/013-JobRec.md)     |
+| 14 | [GLASS: A Generative Recommender for Long-sequence Modeling via SID-Tier and Semantic Search](https://arxiv.org/abs/2602.05663)<br/>论文核心：基于SID层与语义搜索的长序列生成推荐框架，将长期用户兴趣融入生成过程，解决长序列建模难题 | Shiteng Cao,2026 | ⬜️ 未读 |     [笔记](notes/2026/2602/2-week/014-GLASS.md)     |
+| 15 | [Distribution-Aware End-to-End Embedding for Streaming Numerical Features in Click-Through Rate Prediction](https://arxiv.org/abs/2602.03223)<br/>论文核心：点击率预测中流形数值特征的分布感知端到端嵌入框架，解决静态分箱的语义漂移问题，已落地头部短视频平台 | Jiahao Liu,2026 | ⬜️ 未读 |     [笔记](notes/2026/2602/2-week/015-DAES.md)      |
 
 ## b. 论文周报[0126-0201] (36篇)
 

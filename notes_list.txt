@@ -11,9 +11,9 @@
 010-CARE.md
 011-AesRec.md
 012-SCASRec.md
-013-ReFiT.md
-014-VAE-CF.md
-015-AutoRec.md
+013-JobRec.md
+014-GLASS.md
+015-DAES.md
 
 2602-1-week
 001-SpecTran.md
