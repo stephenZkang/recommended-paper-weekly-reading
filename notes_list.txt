@@ -2,9 +2,9 @@
 001-AgenticTagger.md
 002-CFRecs.md
 003-RGCF-XRec.md
-004-HID.md
-005-GenCDR.md
-006-LLaDA-Rec.md
+004-LMMRec.md
+005-AMR.md
+006-VK-LSVD.md
 007-AdaRec.md
 008-WEARec.md
 009-L2UnRank.md
