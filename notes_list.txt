@@ -4,16 +4,12 @@
 003-FedRecGEL.md
 004-IDSS.md
 005-TriRec.md
-006-VK-LSVD.md
-007-DOS.md
-008-MiniRec.md
-009-MSCGRec.md
-010-CARE.md
-011-AesRec.md
-012-SCASRec.md
-013-JobRec.md
-014-GLASS.md
-015-DAES.md
+006-NewsInterest.md
+007-SocialRecControl.md
+008-RecThinker.md
+009-FlexRec.md
+010-LLMGreenRec.md
+011-ExpSFT.md
 
 2603-1-week
 001-TIPS.md

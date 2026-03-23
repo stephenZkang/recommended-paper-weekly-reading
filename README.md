@@ -44,7 +44,7 @@
 | 10 | [LLMGreenRec: LLM-Based Multi-Agent Recommender System for Sustainable E-Commerce](https://arxiv.org/abs/2603.11025)<br/>论文核心：提出LLMGreenRec多智能体框架，挖掘用户绿色消费意图，优先推荐环保产品，同时降低数字碳足迹，助力可持续电商                 |      Hao N. Nguyen,2026      | ✅ 已读 |   [笔记](notes/2026/2603/2-week/010-LLMGreenRec.md)    |
 | 11 | [Robust Post-Training for Generative Recommenders: Why Exponential Reward-Weighted SFT Outperforms RLHF](https://arxiv.org/abs/2603.10279)<br/>论文核心：提出指数奖励加权SFT方法，解决生成式推荐后训练的奖励欺骗问题，无需倾向分数且全离线，性能优于RLHF |  Keertana Chidambaram,2026   | ✅ 已读 |      [笔记](notes/2026/2603/2-week/011-ExpSFT.md)      |
 
-## a. 论文周报[0302-0308] (16篇)
+## b. 论文周报[0302-0308] (16篇)
 
 | #  | 论文标题 (Title)                                                                                                                                                                                                                       | 作者 & 年份             | 状态    |                      我的笔记                       |
 |:--:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|:-----:|:-----------------------------------------------:|
