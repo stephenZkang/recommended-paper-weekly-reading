@@ -8,6 +8,7 @@
 - **快速概览**：清晰地查看各个子领域的核心论文和贡献。
 
 ## 目录
+- [202604](#202604)
 - [202603](#202603)
 - [202602](#202602)
 - [202601](#202601)
@@ -26,9 +27,75 @@
 6. `commit` 和 `push` 您的更改。
 
 ---
-## 202603
+## 202604
 
 ## a. 论文周报[0309-0315] (11篇)
+| # | 论文标题 (Title) | 作者 & 年份 | 状态 | 我的笔记 |
+|:--:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------|:----:|:---------------------------------------------:|
+| 1 | [Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation](https://arxiv.org/abs/2604.08011) | Yantao Yu,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/001-BeyondDenseConnectivity.md) |
+| 2 | [Context-Aware Disentanglement for Cross-Domain Sequential Recommendation: A Causal View](https://arxiv.org/abs/2604.07992) | Xingzi Wang,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/002-CoDiS.md) |
+| 3 | [DialBGM: A Benchmark for Background Music Recommendation from Everyday Multi-Turn Dialogues](https://arxiv.org/abs/2604.07895) | Joonhyeok Shin,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/003-DialBGM.md) |
+| 4 | [ReRec: Reasoning-Augmented LLM-based Recommendation Assistant via Reinforcement Fine-tuning](https://arxiv.org/abs/2604.07851) | Jiani Huang,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/004-ReRec.md) |
+| 5 | [FedUTR: Federated Recommendation with Augmented Universal Textual Representation for Sparse Interaction Scenarios](https://arxiv.org/abs/2604.07351) | Kang Fu,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/005-FedUTR.md) |
+| 6 | [Leveraging Artist Catalogs for Cold-Start Music Recommendation](https://arxiv.org/abs/2604.07090) | Yan-Martin Tamm,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/006-ACARec.md) |
+| 7 | [NestPipe: Large-Scale Recommendation Training on 1,500+ Accelerators via Nested Pipelining](https://arxiv.org/abs/2604.06956) | Zhida Jiang,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/007-NestPipe.md) |
+| 8 | [Leveraging LLMs and Heterogeneous Knowledge Graphs for Persona-Driven Session-Based Recommendation](https://arxiv.org/abs/2604.06928) | Muskan Gupta,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/008-PersonaDrivenSBRS.md) |
+| 9 | [CASE: Cadence-Aware Set Encoding for Large-Scale Next Basket Repurchase Recommendation](https://arxiv.org/abs/2604.06718) | Yanan Cao,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/009-CASE.md) |
+| 10 | [What Do Humanities Scholars Need? A User Model for Recommendation in Digital Archives](https://arxiv.org/abs/2604.06232) | Florian Atzenhofer-Baumgartner,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/010-HumanitiesScholarUserModel.md) |
+| 11 | [EviSnap: Faithful Evidence-Cited Explanations for Cold-Start Cross-Domain Recommendation](https://arxiv.org/abs/2604.06172) | Yingjun Dai,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/011-EviSnap.md) |
+| 12 | [Retrieve-then-Adapt: Retrieval-Augmented Test-Time Adaptation for Sequential Recommendation](https://arxiv.org/abs/2604.05379) | Xing Tang,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/012-ReAd.md) |
+| 13 | [From Clues to Generation: Language-Guided Conditional Diffusion for Cross-Domain Recommendation](https://arxiv.org/abs/2604.05365) | Ziang Lu,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/013-LGCD.md) |
+| 14 | [Curr-RLCER: Curriculum Reinforcement Learning For Coherence Explainable Recommendation](https://arxiv.org/abs/2604.05341) | Xiangchen Pan,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/014-Curr-RLCER.md) |
+| 15 | [Semantic Trimming and Auxiliary Multi-step Prediction for Generative Recommendation](https://arxiv.org/abs/2604.05329) | Tianyu Zhan,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/015-STAMP.md) |
+| 16 | [Pay Attention to Sequence Split: Uncovering the Impacts of Sub-Sequence Splitting on Sequential Recommendation Models](https://arxiv.org/abs/2604.05309) | Yizhou Dang,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/016-SSS4SR.md) |
+| 17 | [CRAB: Codebook Rebalancing for Bias Mitigation in Generative Recommendation](https://arxiv.org/abs/2604.05113) | Zezhong Fan,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/017-CRAB.md) |
+| 18 | [CURE: Circuit-Aware Unlearning for LLM-based Recommendation](https://arxiv.org/abs/2604.04982) | Ziheng Chen,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/018-CURE.md) |
+| 19 | [Tencent Advertising Algorithm Challenge 2025: All-Modality Generative Recommendation](https://arxiv.org/abs/2604.04976) | Junwei Pan,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/019-TencentGR.md) |
+| 20 | [Ensembles at Any Cost? Accuracy-Energy Trade-offs in Recommender Systems](https://arxiv.org/abs/2604.07869) | Jannik Nitschke,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/020-AccuracyEnergyTradeoffs.md) |
+| 21 | [Filling the Gaps: Selective Knowledge Augmentation for LLM Recommenders](https://arxiv.org/abs/2604.07825) | Jaehyun Lee,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/021-KnowSA_CKP.md) |
+| 22 | [Efficient Dataset Selection for Continual Adaptation of Generative Recommenders](https://arxiv.org/abs/2604.07739) | Cathy Jiao,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/022-ContinualAdaptDataSelection.md) |
+| 23 | [HiMARS: Hybrid multi-objective algorithms for recommender systems](https://arxiv.org/abs/2604.07572) | Elaheh Lotfian,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/023-HiMARS.md) |
+| 24 | [The Unreasonable Effectiveness of Data for Recommender Systems](https://arxiv.org/abs/2604.06420) | Youssef Abdou,2026 | ⬜️ 未读 | [笔记](notes/2026/2604/2-week/024-DataEffectivenessRecSys.md) |
+
+
+## 202603
+
+## a. 论文周报[0323-0329] (12篇)
+
+| #  | 论文标题 (Title)                                                                                                                                                                                                             | 作者 & 年份                                |   状态   |                       我的笔记                        |
+|:--:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------|:------:|:-------------------------------------------------:|
+| 1  | [MCLMR: A Model-Agnostic Causal Learning Framework for Multi-Behavior Recommendation](https://arxiv.org/abs/2603.25126)<br/>论文核心：多行为推荐的模型无关因果学习框架，解决混杂效应与异构行为融合问题 | Ranxu Zhang,2026                       | ⬜️ 未读  | [笔记](notes/2026/2603/4-week/001-MCLMR.md) |
+| 2  | [Hyena Operator for Fast Sequential Recommendation](https://arxiv.org/abs/2603.25027)<br/>论文核心：基于Hyena算子的快速序列推荐，线性复杂度，长序列效率提升显著 | Jiahao Liu,2026                        | ⬜️ 未读  | [笔记](notes/2026/2603/4-week/002-HyenaRec.md) |
+| 3  | [Pseudo Label NCF for Sparse OHC Recommendation: Dual Representation Learning and the Separability Accuracy Trade off](https://arxiv.org/abs/2603.24750)<br/>论文核心：极端稀疏场景下伪标签NCF，双表征学习解决冷启动 | Pronob Kumar Barman,2026                | ⬜️ 未读  | [笔记](notes/2026/2603/4-week/003-PseudoLabelNCF.md) |
+| 4  | [Exploring How Fair Model Representations Relate to Fair Recommendations](https://arxiv.org/abs/2603.24396)<br/>论文核心：探究模型表征公平性与推荐公平性的关联，质疑表征公平评估的代理有效性 | Bjørnar Vassøy,2026                     | ⬜️ 未读  | [笔记](notes/2026/2603/4-week/004-FairRepresentation.md) |
+| 5  | [Sequence-aware Large Language Models for Explainable Recommendation](https://arxiv.org/abs/2603.24136)<br/>论文核心：序列感知LLM可解释推荐，融合行为与语义，统一评估解释质量与效用 | Gangyi Zhang,2026                       | ⬜️ 未读  | [笔记](notes/2026/2603/4-week/005-SELLER.md) |
+| 6  | [Lightweight Fairness for LLM-Based Recommendations via Kernelized Projection and Gated Adapters](https://arxiv.org/abs/2603.23780)<br/>论文核心：LLM推荐轻量化去偏，核投影+门控适配器，无额外训练参数 | Nan Cui,2026                            | ⬜️ 未读  | [笔记](notes/2026/2603/4-week/006-LightFairLLMRec.md) |
+| 7  | [Reasoning over Semantic IDs Enhances Generative Recommendation](https://arxiv.org/abs/2603.23183)<br/>论文核心：语义ID推理增强生成式推荐，强化SID-语言对齐，提升可解释性与泛化性 | Yingzhi He,2026                         | ⬜️ 未读  | [笔记](notes/2026/2603/4-week/007-SIDReasoner.md) |
+| 8  | [GateSID: Adaptive Gating for Semantic-Collaborative Alignment in Cold-Start Recommendation](https://arxiv.org/abs/2603.22916)<br/>论文核心：冷启动推荐自适应门控，平衡语义与协同信号，工业级效果提升 | Hai Zhu,2026                             | ⬜️ 未读  | [笔记](notes/2026/2603/4-week/008-GateSID.md) |
+| 9  | [Causal Direct Preference Optimization for Distributionally Robust Generative Recommendation](https://arxiv.org/abs/2603.22335)<br/>论文核心：因果DPO提升生成式推荐分布鲁棒性，解决OOD泛化问题 | Chu Zhao,2026                            | ⬜️ 未读  | [笔记](notes/2026/2603/4-week/009-CausalDPO.md) |
+| 10 | [One Model, Two Markets: Bid-Aware Generative Recommendation](https://arxiv.org/abs/2603.22231)<br/>论文核心：商业化生成式推荐，出价感知解码，兼顾语义相关性与平台收益 | Yanchen Jiang,2026                      | ⬜️ 未读  | [笔记](notes/2026/2603/4-week/010-GEMRec.md) |
+| 11 | [Visual or Textual: Effects of Explanation Format and Personal Characteristics on the Perception of Explanations in an Educational Recommender System](https://arxiv.org/abs/2603.25624)<br/>论文核心：教育推荐解释形式研究，可视化解释更优 | Qurat Ul Ain,2026                        | ⬜️ 未读  | [笔记](notes/2026/2603/4-week/011-RecExplanationFormat.md) |
+| 12 | [DIET: Learning to Distill Dataset Continually for Recommender Systems](https://arxiv.org/abs/2603.24958)<br/>论文核心：推荐系统持续数据集蒸馏，压缩数据至1%-2%，降低迭代成本 | Jiaqing Zhang,2026                       | ⬜️ 未读  | [笔记](notes/2026/2603/4-week/012-DIET.md) |
+
+## b. 论文周报[0316-0322] (12篇)
+
+| #  | 论文标题 (Title)                                                                                                                                                                                                             | 作者 & 年份                                |   状态   |                       我的笔记                        |
+|:--:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------|:------:|:-------------------------------------------------:|
+| 1  | [OCP: Orthogonal Constrained Projection for Sparse Scaling in Industrial Commodity Recommendation](https://arxiv.org/abs/2603.18697)<br/>论文核心：正交约束投影优化工业商品推荐稀疏缩放的嵌入表示，京东落地提升UCXR与GMV | Chen Sun,2026                       | ⬜️ 未读  | [笔记](notes/2026/2603/3-week/001-OCP.md) |
+| 2  | [Interplay: Training Independent Simulators for Reference-Free Conversational Recommendation](https://arxiv.org/abs/2603.18573)<br/>论文核心：双独立LLM模拟器实现无参考对话推荐数据生成，更贴近真实人机交互 | Jerome Ramos,2026                       | ⬜️ 未读  | [笔记](notes/2026/2603/3-week/002-Interplay.md) |
+| 3  | [Latent Factor Modeling with Expert Network for Multi-Behavior Recommendation](https://arxiv.org/abs/2603.18556)<br/>论文核心：门控专家网络建模多行为推荐隐因子，精准捕捉用户特定意图 | Mingshi Yan,2026                       | ⬜️ 未读  | [笔记](notes/2026/2603/3-week/003-MBLFE.md) |
+| 4  | [HypeMed: Enhancing Medication Recommendations with Hypergraph-Based Patient Relationships](https://arxiv.org/abs/2603.18459)<br/>论文核心：超图框架统一就诊内一致性建模与就诊间增强，提升用药推荐精准度与安全性 | Xiangxu Zhang,2026                       | ⬜️ 未读  | [笔记](notes/2026/2603/3-week/004-HypeMed.md) |
+| 5  | [A Unified Language Model for Large Scale Search, Recommendation, and Reasoning](https://arxiv.org/abs/2603.17533)<br/>论文核心：NEO框架将LLM适配为无工具、目录接地生成器，统一支撑搜索、推荐与推理 | Marco De Nadai,2026                       | ⬜️ 未读  | [笔记](notes/2026/2603/3-week/005-NEO.md) |
+| 6  | [VLM2Rec: Resolving Modality Collapse in Vision-Language Model Embedders for Multimodal Sequential Recommendation](https://arxiv.org/abs/2603.17450)<br/>论文核心：解决VLM嵌入器模态坍塌，实现多模态时序推荐模态均衡利用 | Junyoung Kim,2026                       | ⬜️ 未读  | [笔记](notes/2026/2603/3-week/006-VLM2Rec.md) |
+| 7  | [Is Your LLM-as-a-Recommender Agent Trustable? LLMs' Recommendation is Easily Hacked by Biases (Preferences)](https://arxiv.org/abs/2603.17417)<br/>论文核心：构建BiasRecBench，揭示LLM推荐代理易受偏好偏差攻击的漏洞 | Zichen Tang,2026                       | ⬜️ 未读  | [笔记](notes/2026/2603/3-week/007-BiasRecBench.md) |
+| 8  | [PACE-RAG: Patient-Aware Contextual and Evidence-based Policy RAG for Clinical Drug Recommendation](https://arxiv.org/abs/2603.17356)<br/>论文核心：患者感知上下文与证据策略RAG，优化帕金森等临床用药推荐 | Chaeyoung Huh,2026                       | ⬜️ 未读  | [笔记](notes/2026/2603/3-week/008-PACE-RAG.md) |
+| 9  | [Learning Evolving Preferences: A Federated Continual Framework for User-Centric Recommendation](https://arxiv.org/abs/2603.17315)<br/>论文核心：联邦持续学习框架，隐私保护下适配用户动态偏好，解决时序遗忘 | Chunxu Zhang,2026                       | ⬜️ 未读  | [笔记](notes/2026/2603/3-week/009-FCUCR.md) |
+| 10  | [RaDAR: Relation-aware Diffusion-Asymmetric Graph Contrastive Learning for Recommendation](https://arxiv.org/abs/2603.16800)<br/>论文核心：关系感知扩散非对称图对比学习，优化稀疏噪声下协同过滤推荐 | Yixuan Huang,2026                       | ⬜️ 未读  | [笔记](notes/2026/2603/3-week/010-RaDAR.md) |
+| 11  | [ReFORM: Review-aggregated Profile Generation via LLM with Multi-Factor Attention for Restaurant Recommendation](https://arxiv.org/abs/2603.16236)<br/>论文核心：LLM聚合评论生成多因素画像，多因素注意力提升餐厅推荐效果 | Moonsoo Park,2026                       | ⬜️ 未读  | [笔记](notes/2026/2603/3-week/011-ReFORM.md) |
+| 12  | [RecBundle: A Next-Generation Geometric Paradigm for Explainable Recommender Systems](https://arxiv.org/abs/2603.16088)<br/>论文核心：基于纤维束几何理论，解耦推荐系统空间，实现可解释推荐 | Hui Wang,2026                       | ⬜️ 未读  | [笔记](notes/2026/2603/3-week/012-RecBundle.md) |
+
+
+## c. 论文周报[0309-0315] (11篇)
 
 | #  | 论文标题 (Title)                                                                                                                                                                                            |           作者 & 年份            | 状 态  |                         我的笔记                         |
 |:--:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------:|:----:|:----------------------------------------------------:|
@@ -44,7 +111,7 @@
 | 10 | [LLMGreenRec: LLM-Based Multi-Agent Recommender System for Sustainable E-Commerce](https://arxiv.org/abs/2603.11025)<br/>论文核心：提出LLMGreenRec多智能体框架，挖掘用户绿色消费意图，优先推荐环保产品，同时降低数字碳足迹，助力可持续电商                 |      Hao N. Nguyen,2026      | ✅ 已读 |   [笔记](notes/2026/2603/2-week/010-LLMGreenRec.md)    |
 | 11 | [Robust Post-Training for Generative Recommenders: Why Exponential Reward-Weighted SFT Outperforms RLHF](https://arxiv.org/abs/2603.10279)<br/>论文核心：提出指数奖励加权SFT方法，解决生成式推荐后训练的奖励欺骗问题，无需倾向分数且全离线，性能优于RLHF |  Keertana Chidambaram,2026   | ✅ 已读 |      [笔记](notes/2026/2603/2-week/011-ExpSFT.md)      |
 
-## b. 论文周报[0302-0308] (16篇)
+## d. 论文周报[0302-0308] (16篇)
 
 | #  | 论文标题 (Title)                                                                                                                                                                                                                       | 作者 & 年份             |  状态   |                      我的笔记                       |
 |:--:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------|:-----:|:-----------------------------------------------:|
