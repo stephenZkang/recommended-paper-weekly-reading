@@ -1,8 +1,8 @@
 2603-4-week
-001-Fair-PaperRec.md
-002-FedShare.md
-003-FedRecGEL.md
-004-IDSS.md
+001-MCLMR.md
+002-HyenaRec.md
+003-PseudoLabelNCF.md
+004-FairRepresentation.md
 005-TriRec.md
 006-NewsInterest.md
 007-SocialRecControl.md
