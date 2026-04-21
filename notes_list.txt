@@ -18,11 +18,12 @@
 004-HypeMed.md
 005-NEO.md
 006-VLM2Rec.md
-007-SocialRecControl.md
-008-RecThinker.md
-009-FlexRec.md
-010-LLMGreenRec.md
-011-ExpSFT.md
+007-BiasRecBench.md
+008-PACE-RAG.md
+009-FCUCR.md
+010-RaDAR.md
+011-ReFORM.md
+012-RecBundle.md
 
 2603-2-week
 001-Fair-PaperRec.md
