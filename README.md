@@ -100,8 +100,8 @@
 | 8  | [GateSID: Adaptive Gating for Semantic-Collaborative Alignment in Cold-Start Recommendation](https://arxiv.org/abs/2603.22916)<br/>论文核心：冷启动推荐自适应门控，平衡语义与协同信号，工业级效果提升 | Hai Zhu,2026                             | ✅ 已读  | [笔记](notes/2026/2603/4-week/008-GateSID.md) |
 | 9  | [Causal Direct Preference Optimization for Distributionally Robust Generative Recommendation](https://arxiv.org/abs/2603.22335)<br/>论文核心：因果DPO提升生成式推荐分布鲁棒性，解决OOD泛化问题 | Chu Zhao,2026                            | ✅ 已读  | [笔记](notes/2026/2603/4-week/009-CausalDPO.md) |
 | 10 | [One Model, Two Markets: Bid-Aware Generative Recommendation](https://arxiv.org/abs/2603.22231)<br/>论文核心：商业化生成式推荐，出价感知解码，兼顾语义相关性与平台收益 | Yanchen Jiang,2026                      | ✅ 已读  | [笔记](notes/2026/2603/4-week/010-GEMRec.md) |
-| 11 | [Visual or Textual: Effects of Explanation Format and Personal Characteristics on the Perception of Explanations in an Educational Recommender System](https://arxiv.org/abs/2603.25624)<br/>论文核心：教育推荐解释形式研究，可视化解释更优 | Qurat Ul Ain,2026                        | ⬜️ 未读  | [笔记](notes/2026/2603/4-week/011-RecExplanationFormat.md) |
-| 12 | [DIET: Learning to Distill Dataset Continually for Recommender Systems](https://arxiv.org/abs/2603.24958)<br/>论文核心：推荐系统持续数据集蒸馏，压缩数据至1%-2%，降低迭代成本 | Jiaqing Zhang,2026                       | ⬜️ 未读  | [笔记](notes/2026/2603/4-week/012-DIET.md) |
+| 11 | [Visual or Textual: Effects of Explanation Format and Personal Characteristics on the Perception of Explanations in an Educational Recommender System](https://arxiv.org/abs/2603.25624)<br/>论文核心：教育推荐解释形式研究，可视化解释更优 | Qurat Ul Ain,2026                        | ✅ 已读  | [笔记](notes/2026/2603/4-week/011-RecExplanationFormat.md) |
+| 12 | [DIET: Learning to Distill Dataset Continually for Recommender Systems](https://arxiv.org/abs/2603.24958)<br/>论文核心：推荐系统持续数据集蒸馏，压缩数据至1%-2%，降低迭代成本 | Jiaqing Zhang,2026                       | ✅ 已读  | [笔记](notes/2026/2603/4-week/012-DIET.md) |
 
 ## b. 论文周报[0316-0322] (12篇)
 
